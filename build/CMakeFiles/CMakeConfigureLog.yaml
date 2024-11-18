@@ -5342,3 +5342,529 @@ events:
         
       exitCode: 1
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/local/share/pcl-1.14/PCLConfig.cmake:240 (find_package)"
+      - "/usr/local/share/pcl-1.14/PCLConfig.cmake:289 (find_VTK)"
+      - "/usr/local/share/pcl-1.14/PCLConfig.cmake:505 (find_external_library)"
+      - "CMakeLists.txt:19 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-OP2c38"
+      binary: "/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-OP2c38"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/jazzy/share/fastrtps_cmake_module/cmake/Modules;/usr/local/share/pcl-1.14/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-OP2c38'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_cc1be
+        [1/2] /usr/bin/clang  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -MD -MT CMakeFiles/cmTC_cc1be.dir/test_mpi.c.o -MF CMakeFiles/cmTC_cc1be.dir/test_mpi.c.o.d -o CMakeFiles/cmTC_cc1be.dir/test_mpi.c.o -c /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-OP2c38/test_mpi.c
+        [2/2] : && /usr/bin/clang  -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_cc1be.dir/test_mpi.c.o -o cmTC_cc1be  /usr/lib/x86_64-linux-gnu/libmpi.so && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:241 (try_compile)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:596 (_HDF5_test_regular_compiler_C)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:444 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/local/share/pcl-1.14/PCLConfig.cmake:240 (find_package)"
+      - "/usr/local/share/pcl-1.14/PCLConfig.cmake:289 (find_VTK)"
+      - "/usr/local/share/pcl-1.14/PCLConfig.cmake:505 (find_external_library)"
+      - "CMakeLists.txt:19 (find_package)"
+    directories:
+      source: "/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+      binary: "/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/jazzy/share/fastrtps_cmake_module/cmake/Modules;/usr/local/share/pcl-1.14/Modules"
+    buildResult:
+      variable: "HDF5_C_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_2fdd2
+        [1/2] /usr/bin/clang    -MD -MT CMakeFiles/cmTC_2fdd2.dir/cmake_hdf5_test.c.o -MF CMakeFiles/cmTC_2fdd2.dir/cmake_hdf5_test.c.o.d -o CMakeFiles/cmTC_2fdd2.dir/cmake_hdf5_test.c.o -c /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/hdf5/cmake_hdf5_test.c
+        FAILED: CMakeFiles/cmTC_2fdd2.dir/cmake_hdf5_test.c.o 
+        /usr/bin/clang    -MD -MT CMakeFiles/cmTC_2fdd2.dir/cmake_hdf5_test.c.o -MF CMakeFiles/cmTC_2fdd2.dir/cmake_hdf5_test.c.o.d -o CMakeFiles/cmTC_2fdd2.dir/cmake_hdf5_test.c.o -c /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/hdf5/cmake_hdf5_test.c
+        /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/hdf5/cmake_hdf5_test.c:1:10: fatal error: 'hdf5.h' file not found
+            1 | #include <hdf5.h>
+              |          ^~~~~~~~
+        1 error generated.
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindOpenMP.cmake:486 (_OPENMP_GET_FLAGS)"
+      - "/usr/local/share/pcl-1.14/PCLConfig.cmake:301 (find_package)"
+      - "/usr/local/share/pcl-1.14/PCLConfig.cmake:505 (find_external_library)"
+      - "CMakeLists.txt:19 (find_package)"
+    description: "Detecting C OpenMP compiler info"
+    directories:
+      source: "/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-nusu6F"
+      binary: "/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-nusu6F"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/opt/ros/jazzy/share/fastrtps_cmake_module/cmake/Modules;/usr/local/share/pcl-1.14/Modules"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_C_fopenmplibomp"
+      cached: true
+      stdout: |
+        Change Dir: '/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-nusu6F'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_6e6c4
+        [1/2] /usr/bin/clang   -fopenmp=libomp -v -MD -MT CMakeFiles/cmTC_6e6c4.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_6e6c4.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_6e6c4.dir/OpenMPTryFlag.c.o -c /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-nusu6F/OpenMPTryFlag.c
+        FAILED: CMakeFiles/cmTC_6e6c4.dir/OpenMPTryFlag.c.o 
+        /usr/bin/clang   -fopenmp=libomp -v -MD -MT CMakeFiles/cmTC_6e6c4.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_6e6c4.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_6e6c4.dir/OpenMPTryFlag.c.o -c /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-nusu6F/OpenMPTryFlag.c
+        Ubuntu clang version 18.1.3 (1ubuntu1)
+        Target: x86_64-pc-linux-gnu
+        Thread model: posix
+        InstalledDir: /usr/bin
+        Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/13
+        Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/13
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         (in-process)
+         "/usr/lib/llvm-18/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-nusu6F -v -fcoverage-compilation-dir=/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-nusu6F -resource-dir /usr/lib/llvm-18/lib/clang/18 -dependency-file CMakeFiles/cmTC_6e6c4.dir/OpenMPTryFlag.c.o.d -MT CMakeFiles/cmTC_6e6c4.dir/OpenMPTryFlag.c.o -sys-header-deps -internal-isystem /usr/lib/llvm-18/lib/clang/18/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -ferror-limit 19 -fopenmp -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_6e6c4.dir/OpenMPTryFlag.c.o -x c /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-nusu6F/OpenMPTryFlag.c
+        clang -cc1 version 18.1.3 based upon LLVM 18.1.3 default target x86_64-pc-linux-gnu
+        ignoring nonexistent directory "/usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include"
+        ignoring nonexistent directory "/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/llvm-18/lib/clang/18/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-nusu6F/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+            2 | #include <omp.h>
+              |          ^~~~~~~
+        1 error generated.
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindOpenMP.cmake:486 (_OPENMP_GET_FLAGS)"
+      - "/usr/local/share/pcl-1.14/PCLConfig.cmake:301 (find_package)"
+      - "/usr/local/share/pcl-1.14/PCLConfig.cmake:505 (find_external_library)"
+      - "CMakeLists.txt:19 (find_package)"
+    description: "Detecting C OpenMP compiler info"
+    directories:
+      source: "/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-GQebW8"
+      binary: "/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-GQebW8"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/opt/ros/jazzy/share/fastrtps_cmake_module/cmake/Modules;/usr/local/share/pcl-1.14/Modules"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_C_fopenmplibiomp5"
+      cached: true
+      stdout: |
+        Change Dir: '/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-GQebW8'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_aaf9a
+        [1/2] /usr/bin/clang   -fopenmp=libiomp5 -v -MD -MT CMakeFiles/cmTC_aaf9a.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_aaf9a.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_aaf9a.dir/OpenMPTryFlag.c.o -c /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-GQebW8/OpenMPTryFlag.c
+        FAILED: CMakeFiles/cmTC_aaf9a.dir/OpenMPTryFlag.c.o 
+        /usr/bin/clang   -fopenmp=libiomp5 -v -MD -MT CMakeFiles/cmTC_aaf9a.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_aaf9a.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_aaf9a.dir/OpenMPTryFlag.c.o -c /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-GQebW8/OpenMPTryFlag.c
+        Ubuntu clang version 18.1.3 (1ubuntu1)
+        Target: x86_64-pc-linux-gnu
+        Thread model: posix
+        InstalledDir: /usr/bin
+        Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/13
+        Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/13
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         (in-process)
+         "/usr/lib/llvm-18/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-GQebW8 -v -fcoverage-compilation-dir=/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-GQebW8 -resource-dir /usr/lib/llvm-18/lib/clang/18 -dependency-file CMakeFiles/cmTC_aaf9a.dir/OpenMPTryFlag.c.o.d -MT CMakeFiles/cmTC_aaf9a.dir/OpenMPTryFlag.c.o -sys-header-deps -internal-isystem /usr/lib/llvm-18/lib/clang/18/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -ferror-limit 19 -fopenmp -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_aaf9a.dir/OpenMPTryFlag.c.o -x c /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-GQebW8/OpenMPTryFlag.c
+        clang -cc1 version 18.1.3 based upon LLVM 18.1.3 default target x86_64-pc-linux-gnu
+        ignoring nonexistent directory "/usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include"
+        ignoring nonexistent directory "/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/llvm-18/lib/clang/18/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-GQebW8/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+            2 | #include <omp.h>
+              |          ^~~~~~~
+        1 error generated.
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindOpenMP.cmake:486 (_OPENMP_GET_FLAGS)"
+      - "/usr/local/share/pcl-1.14/PCLConfig.cmake:301 (find_package)"
+      - "/usr/local/share/pcl-1.14/PCLConfig.cmake:505 (find_external_library)"
+      - "CMakeLists.txt:19 (find_package)"
+    description: "Detecting C OpenMP compiler info"
+    directories:
+      source: "/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-CIms3l"
+      binary: "/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-CIms3l"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/opt/ros/jazzy/share/fastrtps_cmake_module/cmake/Modules;/usr/local/share/pcl-1.14/Modules"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_C_fopenmp"
+      cached: true
+      stdout: |
+        Change Dir: '/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-CIms3l'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_afa2f
+        [1/2] /usr/bin/clang   -fopenmp -v -MD -MT CMakeFiles/cmTC_afa2f.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_afa2f.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_afa2f.dir/OpenMPTryFlag.c.o -c /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-CIms3l/OpenMPTryFlag.c
+        FAILED: CMakeFiles/cmTC_afa2f.dir/OpenMPTryFlag.c.o 
+        /usr/bin/clang   -fopenmp -v -MD -MT CMakeFiles/cmTC_afa2f.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_afa2f.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_afa2f.dir/OpenMPTryFlag.c.o -c /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-CIms3l/OpenMPTryFlag.c
+        Ubuntu clang version 18.1.3 (1ubuntu1)
+        Target: x86_64-pc-linux-gnu
+        Thread model: posix
+        InstalledDir: /usr/bin
+        Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/13
+        Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/13
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         (in-process)
+         "/usr/lib/llvm-18/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-CIms3l -v -fcoverage-compilation-dir=/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-CIms3l -resource-dir /usr/lib/llvm-18/lib/clang/18 -dependency-file CMakeFiles/cmTC_afa2f.dir/OpenMPTryFlag.c.o.d -MT CMakeFiles/cmTC_afa2f.dir/OpenMPTryFlag.c.o -sys-header-deps -internal-isystem /usr/lib/llvm-18/lib/clang/18/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -ferror-limit 19 -fopenmp -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_afa2f.dir/OpenMPTryFlag.c.o -x c /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-CIms3l/OpenMPTryFlag.c
+        clang -cc1 version 18.1.3 based upon LLVM 18.1.3 default target x86_64-pc-linux-gnu
+        ignoring nonexistent directory "/usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include"
+        ignoring nonexistent directory "/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/llvm-18/lib/clang/18/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-CIms3l/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+            2 | #include <omp.h>
+              |          ^~~~~~~
+        1 error generated.
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindOpenMP.cmake:486 (_OPENMP_GET_FLAGS)"
+      - "/usr/local/share/pcl-1.14/PCLConfig.cmake:301 (find_package)"
+      - "/usr/local/share/pcl-1.14/PCLConfig.cmake:505 (find_external_library)"
+      - "CMakeLists.txt:19 (find_package)"
+    description: "Detecting C OpenMP compiler info"
+    directories:
+      source: "/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-sPuWLq"
+      binary: "/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-sPuWLq"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/opt/ros/jazzy/share/fastrtps_cmake_module/cmake/Modules;/usr/local/share/pcl-1.14/Modules"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_C_Xclang fopenmp"
+      cached: true
+      stdout: |
+        Change Dir: '/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-sPuWLq'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_bc5ab
+        [1/2] /usr/bin/clang   -Xclang -fopenmp -v -MD -MT CMakeFiles/cmTC_bc5ab.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_bc5ab.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_bc5ab.dir/OpenMPTryFlag.c.o -c /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-sPuWLq/OpenMPTryFlag.c
+        FAILED: CMakeFiles/cmTC_bc5ab.dir/OpenMPTryFlag.c.o 
+        /usr/bin/clang   -Xclang -fopenmp -v -MD -MT CMakeFiles/cmTC_bc5ab.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_bc5ab.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_bc5ab.dir/OpenMPTryFlag.c.o -c /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-sPuWLq/OpenMPTryFlag.c
+        Ubuntu clang version 18.1.3 (1ubuntu1)
+        Target: x86_64-pc-linux-gnu
+        Thread model: posix
+        InstalledDir: /usr/bin
+        Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/13
+        Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/13
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         (in-process)
+         "/usr/lib/llvm-18/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-sPuWLq -v -fcoverage-compilation-dir=/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-sPuWLq -resource-dir /usr/lib/llvm-18/lib/clang/18 -dependency-file CMakeFiles/cmTC_bc5ab.dir/OpenMPTryFlag.c.o.d -MT CMakeFiles/cmTC_bc5ab.dir/OpenMPTryFlag.c.o -sys-header-deps -internal-isystem /usr/lib/llvm-18/lib/clang/18/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fopenmp -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_bc5ab.dir/OpenMPTryFlag.c.o -x c /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-sPuWLq/OpenMPTryFlag.c
+        clang -cc1 version 18.1.3 based upon LLVM 18.1.3 default target x86_64-pc-linux-gnu
+        ignoring nonexistent directory "/usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include"
+        ignoring nonexistent directory "/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/llvm-18/lib/clang/18/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-sPuWLq/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+            2 | #include <omp.h>
+              |          ^~~~~~~
+        1 error generated.
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindOpenMP.cmake:486 (_OPENMP_GET_FLAGS)"
+      - "/usr/local/share/pcl-1.14/PCLConfig.cmake:301 (find_package)"
+      - "/usr/local/share/pcl-1.14/PCLConfig.cmake:505 (find_external_library)"
+      - "CMakeLists.txt:19 (find_package)"
+    description: "Detecting CXX OpenMP compiler info"
+    directories:
+      source: "/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-xEoKUi"
+      binary: "/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-xEoKUi"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/opt/ros/jazzy/share/fastrtps_cmake_module/cmake/Modules;/usr/local/share/pcl-1.14/Modules"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_fopenmplibomp"
+      cached: true
+      stdout: |
+        Change Dir: '/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-xEoKUi'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_b193a
+        [1/2] /usr/bin/clang++   -fopenmp=libomp -v -std=gnu++14 -MD -MT CMakeFiles/cmTC_b193a.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_b193a.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_b193a.dir/OpenMPTryFlag.cpp.o -c /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-xEoKUi/OpenMPTryFlag.cpp
+        FAILED: CMakeFiles/cmTC_b193a.dir/OpenMPTryFlag.cpp.o 
+        /usr/bin/clang++   -fopenmp=libomp -v -std=gnu++14 -MD -MT CMakeFiles/cmTC_b193a.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_b193a.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_b193a.dir/OpenMPTryFlag.cpp.o -c /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-xEoKUi/OpenMPTryFlag.cpp
+        Ubuntu clang version 18.1.3 (1ubuntu1)
+        Target: x86_64-pc-linux-gnu
+        Thread model: posix
+        InstalledDir: /usr/bin
+        Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/13
+        Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/13
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         (in-process)
+         "/usr/lib/llvm-18/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-xEoKUi -v -fcoverage-compilation-dir=/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-xEoKUi -resource-dir /usr/lib/llvm-18/lib/clang/18 -dependency-file CMakeFiles/cmTC_b193a.dir/OpenMPTryFlag.cpp.o.d -MT CMakeFiles/cmTC_b193a.dir/OpenMPTryFlag.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/backward -internal-isystem /usr/lib/llvm-18/lib/clang/18/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -std=gnu++14 -fdeprecated-macro -ferror-limit 19 -fopenmp -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_b193a.dir/OpenMPTryFlag.cpp.o -x c++ /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-xEoKUi/OpenMPTryFlag.cpp
+        clang -cc1 version 18.1.3 based upon LLVM 18.1.3 default target x86_64-pc-linux-gnu
+        ignoring nonexistent directory "/usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include"
+        ignoring nonexistent directory "/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13
+         /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13
+         /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/backward
+         /usr/lib/llvm-18/lib/clang/18/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-xEoKUi/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+            2 | #include <omp.h>
+              |          ^~~~~~~
+        1 error generated.
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindOpenMP.cmake:486 (_OPENMP_GET_FLAGS)"
+      - "/usr/local/share/pcl-1.14/PCLConfig.cmake:301 (find_package)"
+      - "/usr/local/share/pcl-1.14/PCLConfig.cmake:505 (find_external_library)"
+      - "CMakeLists.txt:19 (find_package)"
+    description: "Detecting CXX OpenMP compiler info"
+    directories:
+      source: "/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-8Ln1dC"
+      binary: "/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-8Ln1dC"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/opt/ros/jazzy/share/fastrtps_cmake_module/cmake/Modules;/usr/local/share/pcl-1.14/Modules"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_fopenmplibiomp5"
+      cached: true
+      stdout: |
+        Change Dir: '/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-8Ln1dC'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_db1a0
+        [1/2] /usr/bin/clang++   -fopenmp=libiomp5 -v -std=gnu++14 -MD -MT CMakeFiles/cmTC_db1a0.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_db1a0.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_db1a0.dir/OpenMPTryFlag.cpp.o -c /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-8Ln1dC/OpenMPTryFlag.cpp
+        FAILED: CMakeFiles/cmTC_db1a0.dir/OpenMPTryFlag.cpp.o 
+        /usr/bin/clang++   -fopenmp=libiomp5 -v -std=gnu++14 -MD -MT CMakeFiles/cmTC_db1a0.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_db1a0.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_db1a0.dir/OpenMPTryFlag.cpp.o -c /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-8Ln1dC/OpenMPTryFlag.cpp
+        Ubuntu clang version 18.1.3 (1ubuntu1)
+        Target: x86_64-pc-linux-gnu
+        Thread model: posix
+        InstalledDir: /usr/bin
+        Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/13
+        Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/13
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         (in-process)
+         "/usr/lib/llvm-18/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-8Ln1dC -v -fcoverage-compilation-dir=/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-8Ln1dC -resource-dir /usr/lib/llvm-18/lib/clang/18 -dependency-file CMakeFiles/cmTC_db1a0.dir/OpenMPTryFlag.cpp.o.d -MT CMakeFiles/cmTC_db1a0.dir/OpenMPTryFlag.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/backward -internal-isystem /usr/lib/llvm-18/lib/clang/18/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -std=gnu++14 -fdeprecated-macro -ferror-limit 19 -fopenmp -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_db1a0.dir/OpenMPTryFlag.cpp.o -x c++ /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-8Ln1dC/OpenMPTryFlag.cpp
+        clang -cc1 version 18.1.3 based upon LLVM 18.1.3 default target x86_64-pc-linux-gnu
+        ignoring nonexistent directory "/usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include"
+        ignoring nonexistent directory "/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13
+         /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13
+         /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/backward
+         /usr/lib/llvm-18/lib/clang/18/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-8Ln1dC/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+            2 | #include <omp.h>
+              |          ^~~~~~~
+        1 error generated.
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindOpenMP.cmake:486 (_OPENMP_GET_FLAGS)"
+      - "/usr/local/share/pcl-1.14/PCLConfig.cmake:301 (find_package)"
+      - "/usr/local/share/pcl-1.14/PCLConfig.cmake:505 (find_external_library)"
+      - "CMakeLists.txt:19 (find_package)"
+    description: "Detecting CXX OpenMP compiler info"
+    directories:
+      source: "/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-JbG6F7"
+      binary: "/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-JbG6F7"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/opt/ros/jazzy/share/fastrtps_cmake_module/cmake/Modules;/usr/local/share/pcl-1.14/Modules"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_fopenmp"
+      cached: true
+      stdout: |
+        Change Dir: '/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-JbG6F7'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_374ce
+        [1/2] /usr/bin/clang++   -fopenmp -v -std=gnu++14 -MD -MT CMakeFiles/cmTC_374ce.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_374ce.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_374ce.dir/OpenMPTryFlag.cpp.o -c /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-JbG6F7/OpenMPTryFlag.cpp
+        FAILED: CMakeFiles/cmTC_374ce.dir/OpenMPTryFlag.cpp.o 
+        /usr/bin/clang++   -fopenmp -v -std=gnu++14 -MD -MT CMakeFiles/cmTC_374ce.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_374ce.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_374ce.dir/OpenMPTryFlag.cpp.o -c /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-JbG6F7/OpenMPTryFlag.cpp
+        Ubuntu clang version 18.1.3 (1ubuntu1)
+        Target: x86_64-pc-linux-gnu
+        Thread model: posix
+        InstalledDir: /usr/bin
+        Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/13
+        Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/13
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         (in-process)
+         "/usr/lib/llvm-18/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-JbG6F7 -v -fcoverage-compilation-dir=/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-JbG6F7 -resource-dir /usr/lib/llvm-18/lib/clang/18 -dependency-file CMakeFiles/cmTC_374ce.dir/OpenMPTryFlag.cpp.o.d -MT CMakeFiles/cmTC_374ce.dir/OpenMPTryFlag.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/backward -internal-isystem /usr/lib/llvm-18/lib/clang/18/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -std=gnu++14 -fdeprecated-macro -ferror-limit 19 -fopenmp -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_374ce.dir/OpenMPTryFlag.cpp.o -x c++ /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-JbG6F7/OpenMPTryFlag.cpp
+        clang -cc1 version 18.1.3 based upon LLVM 18.1.3 default target x86_64-pc-linux-gnu
+        ignoring nonexistent directory "/usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include"
+        ignoring nonexistent directory "/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13
+         /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13
+         /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/backward
+         /usr/lib/llvm-18/lib/clang/18/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-JbG6F7/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+            2 | #include <omp.h>
+              |          ^~~~~~~
+        1 error generated.
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindOpenMP.cmake:486 (_OPENMP_GET_FLAGS)"
+      - "/usr/local/share/pcl-1.14/PCLConfig.cmake:301 (find_package)"
+      - "/usr/local/share/pcl-1.14/PCLConfig.cmake:505 (find_external_library)"
+      - "CMakeLists.txt:19 (find_package)"
+    description: "Detecting CXX OpenMP compiler info"
+    directories:
+      source: "/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-raFpGP"
+      binary: "/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-raFpGP"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/opt/ros/jazzy/share/fastrtps_cmake_module/cmake/Modules;/usr/local/share/pcl-1.14/Modules"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_Xclang fopenmp"
+      cached: true
+      stdout: |
+        Change Dir: '/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-raFpGP'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_1c80e
+        [1/2] /usr/bin/clang++   -Xclang -fopenmp -v -std=gnu++14 -MD -MT CMakeFiles/cmTC_1c80e.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_1c80e.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_1c80e.dir/OpenMPTryFlag.cpp.o -c /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-raFpGP/OpenMPTryFlag.cpp
+        FAILED: CMakeFiles/cmTC_1c80e.dir/OpenMPTryFlag.cpp.o 
+        /usr/bin/clang++   -Xclang -fopenmp -v -std=gnu++14 -MD -MT CMakeFiles/cmTC_1c80e.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_1c80e.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_1c80e.dir/OpenMPTryFlag.cpp.o -c /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-raFpGP/OpenMPTryFlag.cpp
+        Ubuntu clang version 18.1.3 (1ubuntu1)
+        Target: x86_64-pc-linux-gnu
+        Thread model: posix
+        InstalledDir: /usr/bin
+        Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/13
+        Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/13
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         (in-process)
+         "/usr/lib/llvm-18/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-raFpGP -v -fcoverage-compilation-dir=/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-raFpGP -resource-dir /usr/lib/llvm-18/lib/clang/18 -dependency-file CMakeFiles/cmTC_1c80e.dir/OpenMPTryFlag.cpp.o.d -MT CMakeFiles/cmTC_1c80e.dir/OpenMPTryFlag.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/backward -internal-isystem /usr/lib/llvm-18/lib/clang/18/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -std=gnu++14 -fdeprecated-macro -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fopenmp -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_1c80e.dir/OpenMPTryFlag.cpp.o -x c++ /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-raFpGP/OpenMPTryFlag.cpp
+        clang -cc1 version 18.1.3 based upon LLVM 18.1.3 default target x86_64-pc-linux-gnu
+        ignoring nonexistent directory "/usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include"
+        ignoring nonexistent directory "/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13
+         /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13
+         /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/backward
+         /usr/lib/llvm-18/lib/clang/18/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/CMakeScratch/TryCompile-raFpGP/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+            2 | #include <omp.h>
+              |          ^~~~~~~
+        1 error generated.
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+...

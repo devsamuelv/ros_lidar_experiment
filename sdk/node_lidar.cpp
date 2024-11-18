@@ -198,10 +198,9 @@ int read_forever()
             }
 
             node_lidar._lock.lock();
-            printf("scan time\n");
             if ((node_lidar.lidar_time.scan_time_current - node_lidar.lidar_time.scan_time_record) > 2000)
             {
-              printf("fulll----- count=%d,time=%lld\n", scan_count, current_times());
+              printf("full----- count=%d,time=%lld\n", scan_count, current_times());
               node_lidar.lidar_time.scan_time_record = node_lidar.lidar_time.scan_time_current;
             }
             node_lidar.lidar_time.scan_start_time = node_lidar.lidar_time.tim_scan_start;
@@ -216,7 +215,6 @@ int read_forever()
             node_lidar.lidar_time.scan_time_current = current_times();
             node_lidar._dataEvent.set();
             node_lidar._lock.unlock();
-            printf("after memcpy");
           }
           scan_count = 0;
         }

@@ -1666,3 +1666,173 @@ events:
         
       exitCode: 2
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/local/share/pcl-1.14/PCLConfig.cmake:240 (find_package)"
+      - "/usr/local/share/pcl-1.14/PCLConfig.cmake:289 (find_VTK)"
+      - "/usr/local/share/pcl-1.14/PCLConfig.cmake:505 (find_external_library)"
+      - "CMakeLists.txt:19 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar/CMakeFiles/CMakeScratch/TryCompile-NVt2FV"
+      binary: "/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar/CMakeFiles/CMakeScratch/TryCompile-NVt2FV"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/jazzy/share/fastrtps_cmake_module/cmake/Modules;/usr/local/share/pcl-1.14/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar/CMakeFiles/CMakeScratch/TryCompile-NVt2FV'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_de569/fast
+        gmake[1]: Entering directory '/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar/CMakeFiles/CMakeScratch/TryCompile-NVt2FV'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_de569.dir/build.make CMakeFiles/cmTC_de569.dir/build
+        gmake[2]: Entering directory '/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar/CMakeFiles/CMakeScratch/TryCompile-NVt2FV'
+        Building C object CMakeFiles/cmTC_de569.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_de569.dir/test_mpi.c.o -c /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar/CMakeFiles/CMakeScratch/TryCompile-NVt2FV/test_mpi.c
+        Linking C executable cmTC_de569
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de569.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_de569.dir/test_mpi.c.o -o cmTC_de569  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[2]: Leaving directory '/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar/CMakeFiles/CMakeScratch/TryCompile-NVt2FV'
+        gmake[1]: Leaving directory '/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar/CMakeFiles/CMakeScratch/TryCompile-NVt2FV'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:241 (try_compile)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:596 (_HDF5_test_regular_compiler_C)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:444 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/local/share/pcl-1.14/PCLConfig.cmake:240 (find_package)"
+      - "/usr/local/share/pcl-1.14/PCLConfig.cmake:289 (find_VTK)"
+      - "/usr/local/share/pcl-1.14/PCLConfig.cmake:505 (find_external_library)"
+      - "CMakeLists.txt:19 (find_package)"
+    directories:
+      source: "/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+      binary: "/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/jazzy/share/fastrtps_cmake_module/cmake/Modules;/usr/local/share/pcl-1.14/Modules"
+    buildResult:
+      variable: "HDF5_C_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_30039/fast
+        gmake[1]: Entering directory '/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_30039.dir/build.make CMakeFiles/cmTC_30039.dir/build
+        gmake[2]: Entering directory '/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_30039.dir/cmake_hdf5_test.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_30039.dir/cmake_hdf5_test.c.o -c /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar/CMakeFiles/hdf5/cmake_hdf5_test.c
+        /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar/CMakeFiles/hdf5/cmake_hdf5_test.c:1:10: fatal error: hdf5.h: No such file or directory
+            1 | #include <hdf5.h>
+              |          ^~~~~~~~
+        compilation terminated.
+        gmake[2]: *** [CMakeFiles/cmTC_30039.dir/build.make:78: CMakeFiles/cmTC_30039.dir/cmake_hdf5_test.c.o] Error 1
+        gmake[2]: Leaving directory '/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        gmake[1]: *** [Makefile:127: cmTC_30039/fast] Error 2
+        gmake[1]: Leaving directory '/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/local/share/pcl-1.14/PCLConfig.cmake:240 (find_package)"
+      - "/usr/local/share/pcl-1.14/PCLConfig.cmake:289 (find_VTK)"
+      - "/usr/local/share/pcl-1.14/PCLConfig.cmake:505 (find_external_library)"
+      - "CMakeLists.txt:19 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar/CMakeFiles/CMakeScratch/TryCompile-2Sts26"
+      binary: "/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar/CMakeFiles/CMakeScratch/TryCompile-2Sts26"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/jazzy/share/fastrtps_cmake_module/cmake/Modules;/usr/local/share/pcl-1.14/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar/CMakeFiles/CMakeScratch/TryCompile-2Sts26'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9f5f0/fast
+        gmake[1]: Entering directory '/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar/CMakeFiles/CMakeScratch/TryCompile-2Sts26'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_9f5f0.dir/build.make CMakeFiles/cmTC_9f5f0.dir/build
+        gmake[2]: Entering directory '/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar/CMakeFiles/CMakeScratch/TryCompile-2Sts26'
+        Building C object CMakeFiles/cmTC_9f5f0.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_9f5f0.dir/test_mpi.c.o -c /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar/CMakeFiles/CMakeScratch/TryCompile-2Sts26/test_mpi.c
+        Linking C executable cmTC_9f5f0
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f5f0.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_9f5f0.dir/test_mpi.c.o -o cmTC_9f5f0  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[2]: Leaving directory '/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar/CMakeFiles/CMakeScratch/TryCompile-2Sts26'
+        gmake[1]: Leaving directory '/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar/CMakeFiles/CMakeScratch/TryCompile-2Sts26'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:241 (try_compile)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:596 (_HDF5_test_regular_compiler_C)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:444 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/local/share/pcl-1.14/PCLConfig.cmake:240 (find_package)"
+      - "/usr/local/share/pcl-1.14/PCLConfig.cmake:289 (find_VTK)"
+      - "/usr/local/share/pcl-1.14/PCLConfig.cmake:505 (find_external_library)"
+      - "CMakeLists.txt:19 (find_package)"
+    directories:
+      source: "/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+      binary: "/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/jazzy/share/fastrtps_cmake_module/cmake/Modules;/usr/local/share/pcl-1.14/Modules"
+    buildResult:
+      variable: "HDF5_C_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_76f48/fast
+        gmake[1]: Entering directory '/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_76f48.dir/build.make CMakeFiles/cmTC_76f48.dir/build
+        gmake[2]: Entering directory '/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_76f48.dir/cmake_hdf5_test.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_76f48.dir/cmake_hdf5_test.c.o -c /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar/CMakeFiles/hdf5/cmake_hdf5_test.c
+        /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar/CMakeFiles/hdf5/cmake_hdf5_test.c:1:10: fatal error: hdf5.h: No such file or directory
+            1 | #include <hdf5.h>
+              |          ^~~~~~~~
+        compilation terminated.
+        gmake[2]: *** [CMakeFiles/cmTC_76f48.dir/build.make:78: CMakeFiles/cmTC_76f48.dir/cmake_hdf5_test.c.o] Error 1
+        gmake[2]: Leaving directory '/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        gmake[1]: *** [Makefile:127: cmTC_76f48/fast] Error 2
+        gmake[1]: Leaving directory '/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        
+      exitCode: 2
+...
