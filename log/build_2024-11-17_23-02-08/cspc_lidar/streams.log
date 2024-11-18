@@ -1,0 +1,28 @@
+[0.025s] Invoking command in '/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar -- -j20 -l20
+[0.208s] [ 11%] [32mBuilding CXX object CMakeFiles/cspc_lidar.dir/sdk/node_lidar.cpp.o[0m
+[1.300s] [ 22%] [32m[1mLinking CXX executable cspc_lidar[0m
+[1.928s] [100%] Built target cspc_lidar
+[1.961s] Invoked command in '/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar -- -j20 -l20
+[2.137s] Invoking command in '/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar
+[2.151s] -- Install configuration: ""
+[2.154s] -- Execute custom install script
+[2.155s] -- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/lib/cspc_lidar/cspc_lidar
+[2.156s] -- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/launch/lidar_launch.py
+[2.156s] -- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/launch/lidar_rviz.py
+[2.157s] -- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/params/cspc_lidar.yaml
+[2.157s] -- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/ament_index/resource_index/package_run_dependencies/cspc_lidar
+[2.158s] -- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/ament_index/resource_index/parent_prefix_path/cspc_lidar
+[2.158s] -- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/environment/ament_prefix_path.sh
+[2.158s] -- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/environment/ament_prefix_path.dsv
+[2.159s] -- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/environment/path.sh
+[2.160s] -- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/environment/path.dsv
+[2.160s] -- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/local_setup.bash
+[2.160s] -- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/local_setup.sh
+[2.160s] -- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/local_setup.zsh
+[2.161s] -- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/local_setup.dsv
+[2.161s] -- Symlinking: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/package.dsv
+[2.177s] -- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/ament_index/resource_index/packages/cspc_lidar
+[2.177s] -- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/cmake/cspc_lidarConfig.cmake
+[2.177s] -- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/cmake/cspc_lidarConfig-version.cmake
+[2.177s] -- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/package.xml
+[2.180s] Invoked command in '/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar

@@ -1,0 +1,24 @@
+[ 11%] [32mBuilding CXX object CMakeFiles/cspc_lidar.dir/src/node_lidar_ros.cpp.o[0m
+[ 22%] [32m[1mLinking CXX executable cspc_lidar[0m
+[100%] Built target cspc_lidar
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/lib/cspc_lidar/cspc_lidar
+-- Symlinking: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/launch/lidar_launch.py
+-- Symlinking: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/launch/lidar_rviz.py
+-- Symlinking: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/params/cspc_lidar.yaml
+-- Symlinking: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/ament_index/resource_index/package_run_dependencies/cspc_lidar
+-- Symlinking: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/ament_index/resource_index/parent_prefix_path/cspc_lidar
+-- Symlinking: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/environment/ament_prefix_path.sh
+-- Symlinking: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/environment/ament_prefix_path.dsv
+-- Symlinking: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/environment/path.sh
+-- Symlinking: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/environment/path.dsv
+-- Symlinking: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/local_setup.bash
+-- Symlinking: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/local_setup.sh
+-- Symlinking: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/local_setup.zsh
+-- Symlinking: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/local_setup.dsv
+-- Symlinking: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/package.dsv
+-- Symlinking: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/ament_index/resource_index/packages/cspc_lidar
+-- Symlinking: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/cmake/cspc_lidarConfig.cmake
+-- Symlinking: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/cmake/cspc_lidarConfig-version.cmake
+-- Symlinking: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/package.xml

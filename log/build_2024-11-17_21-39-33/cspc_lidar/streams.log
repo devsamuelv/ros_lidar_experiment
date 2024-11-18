@@ -1,0 +1,104 @@
+[0.013s] Invoking command in '/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar
+[0.039s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.460s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.468s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.522s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.535s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.548s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.564s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.642s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.643s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.794s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.893s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.966s] -- Found visualization_msgs: 5.3.5 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[1.164s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.390s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.391s] -- Found Threads: TRUE  
+[1.395s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[1.407s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[1.858s] -- Found Python3: /usr/bin/python3 (found suitable version "3.12.3", minimum required is "3.12") found components: Interpreter Development.Module Development.Embed 
+[2.196s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[2.196s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[2.512s] -- Found HDF5: /usr/lib/x86_64-linux-gnu/hdf5/serial/libhdf5.so;/usr/lib/x86_64-linux-gnu/libcrypto.so;/usr/lib/x86_64-linux-gnu/libcurl.so;/usr/lib/x86_64-linux-gnu/libpthread.a;/usr/lib/x86_64-linux-gnu/libsz.so;/usr/lib/x86_64-linux-gnu/libz.so;/usr/lib/x86_64-linux-gnu/libdl.a;/usr/lib/x86_64-linux-gnu/libm.so (found version "1.10.10") found components: C HL 
+[2.516s] -- Found NetCDF: /usr/include (found version "4.9.2") 
+[2.522s] -- Found OGG: /usr/lib/x86_64-linux-gnu/libogg.so  
+[2.526s] -- Found THEORA: /usr/lib/x86_64-linux-gnu/libtheora.so  
+[2.530s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[2.624s] -- Found LibXml2: /usr/lib/x86_64-linux-gnu/libxml2.so (found version "2.9.14") 
+[2.668s] -- Found GL2PS: /usr/lib/x86_64-linux-gnu/libgl2ps.so (found suitable version "1.4.2", minimum required is "1.4.2") 
+[2.702s] -- Found SQLite3: /usr/include (found version "3.45.1") 
+[2.714s] -- Found LibPROJ: /usr/lib/x86_64-linux-gnu/libproj.so (found version "9.4.0") 
+[2.717s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[2.913s] -- Found X11: /usr/include   
+[2.913s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[3.043s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[3.043s] -- Looking for gethostbyname
+[3.167s] -- Looking for gethostbyname - found
+[3.167s] -- Looking for connect
+[3.282s] -- Looking for connect - found
+[3.283s] -- Looking for remove
+[3.411s] -- Looking for remove - found
+[3.411s] -- Looking for shmat
+[3.579s] -- Looking for shmat - found
+[3.579s] -- Looking for IceConnectionNumber in ICE
+[3.729s] -- Looking for IceConnectionNumber in ICE - found
+[3.907s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.6.1") 
+[3.910s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[3.914s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.4") 
+[3.917s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.4.5") 
+[3.958s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[3.983s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.5.1")  
+[3.988s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.13.2") 
+[3.998s] -- Found utf8cpp: /usr/include/utf8cpp  
+[4.022s] [0m** WARNING **  features related to /opt/ros/jazzy/lib/libvisualization_msgs__rosidl_typesupport_fastrtps_cpp.so will be disabled[0m
+[4.038s] -- looking for PCL_COMMON
+[4.039s] -- looking for PCL_OCTREE
+[4.039s] -- looking for PCL_GEOMETRY
+[4.040s] -- looking for PCL_IO
+[4.040s] -- looking for PCL_ML
+[4.041s] -- looking for PCL_STEREO
+[4.042s] -- Found pcl_msgs: 1.0.0 (/opt/ros/jazzy/share/pcl_msgs/cmake)
+[4.075s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[4.206s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.232s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.232s] -- Configured cppcheck include dirs: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/include/cspc_lidar;/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/sdk
+[4.232s] -- Configured cppcheck exclude dirs and/or files: 
+[4.255s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.255s] -- Configured cpplint exclude dirs and/or files: 
+[4.258s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.258s] -- Configured 'flake8' exclude dirs and/or files: 
+[4.264s] -- Added test 'lint_cmake' to check CMake code style
+[4.267s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.290s] -- Added test 'uncrustify' to check C / C++ code style
+[4.290s] -- Configured uncrustify additional arguments: 
+[4.293s] -- Added test 'xmllint' to check XML markup files
+[4.294s] -- Configuring done (4.3s)
+[4.312s] -- Generating done (0.0s)
+[4.315s] -- Build files have been written to: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar
+[4.334s] Invoked command in '/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar
+[4.334s] Invoking command in '/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar -- -j20 -l20
+[4.443s] [100%] Built target cspc_lidar
+[4.463s] Invoked command in '/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar -- -j20 -l20
+[4.553s] Invoking command in '/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar
+[4.562s] -- Install configuration: ""
+[4.562s] -- Execute custom install script
+[4.563s] -- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/lib/cspc_lidar/cspc_lidar
+[4.563s] -- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/launch/lidar_launch.py
+[4.563s] -- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/launch/lidar_rviz.py
+[4.564s] -- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/params/cspc_lidar.yaml
+[4.564s] -- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/ament_index/resource_index/package_run_dependencies/cspc_lidar
+[4.564s] -- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/ament_index/resource_index/parent_prefix_path/cspc_lidar
+[4.565s] -- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/environment/ament_prefix_path.sh
+[4.565s] -- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/environment/ament_prefix_path.dsv
+[4.565s] -- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/environment/path.sh
+[4.565s] -- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/environment/path.dsv
+[4.566s] -- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/local_setup.bash
+[4.566s] -- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/local_setup.sh
+[4.566s] -- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/local_setup.zsh
+[4.566s] -- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/local_setup.dsv
+[4.566s] -- Symlinking: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/package.dsv
+[4.579s] -- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/ament_index/resource_index/packages/cspc_lidar
+[4.580s] -- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/cmake/cspc_lidarConfig.cmake
+[4.580s] -- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/cmake/cspc_lidarConfig-version.cmake
+[4.580s] -- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/package.xml
+[4.583s] Invoked command in '/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar

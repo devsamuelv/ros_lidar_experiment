@@ -1,0 +1,10 @@
+[0.012s] Invoking command in '/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar -- -j20 -l20
+[0.087s] [ 11%] [32mBuilding CXX object CMakeFiles/cspc_lidar.dir/src/node_lidar_ros.cpp.o[0m
+[1.443s] [01m[K/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/src/node_lidar_ros.cpp:11:10:[m[K [01;31m[Kfatal error: [m[Kpcl_conversions/pcl_conversions.h: No such file or directory
+[1.444s]    11 | #include [01;31m[K<pcl_conversions/pcl_conversions.h>[m[K
+[1.444s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.444s] compilation terminated.
+[1.455s] gmake[2]: *** [CMakeFiles/cspc_lidar.dir/build.make:174: CMakeFiles/cspc_lidar.dir/src/node_lidar_ros.cpp.o] Error 1
+[1.455s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cspc_lidar.dir/all] Error 2
+[1.456s] gmake: *** [Makefile:146: all] Error 2
+[1.459s] Invoked command in '/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar -- -j20 -l20

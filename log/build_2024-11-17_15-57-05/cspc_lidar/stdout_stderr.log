@@ -1,0 +1,9 @@
+[ 11%] [32mBuilding CXX object CMakeFiles/cspc_lidar.dir/src/node_lidar_ros.cpp.o[0m
+In file included from [01m[K/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/src/node_lidar_ros.cpp:11[m[K:
+[01m[K/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/include/cspc_lidar/pcl_conversions/pcl_conversions.h:44:10:[m[K [01;31m[Kfatal error: [m[Kmessage_filters/message_event.h: No such file or directory
+   44 | #include [01;31m[K<message_filters/message_event.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/cspc_lidar.dir/build.make:174: CMakeFiles/cspc_lidar.dir/src/node_lidar_ros.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cspc_lidar.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

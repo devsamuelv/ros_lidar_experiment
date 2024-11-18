@@ -1,0 +1,94 @@
+[0.016s] Invoking command in '/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110 -DCMAKE_CXX_FLAGS=-w -DCMAKE_INSTALL_PREFIX=/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar
+[0.042s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.381s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.414s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.506s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.531s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.554s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.578s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.698s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.702s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.831s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.992s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.087s] -- Found visualization_msgs: 5.3.5 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[1.257s] [33mCMake Warning at /usr/local/share/pcl-1.14/PCLConfig.cmake:240 (find_package):
+[1.257s]   By not providing "FindVTK.cmake" in CMAKE_MODULE_PATH this project has
+[1.257s]   asked CMake to find a package configuration file provided by "VTK", but
+[1.257s]   CMake did not find one.
+[1.257s] 
+[1.257s]   Could not find a package configuration file provided by "VTK" with any of
+[1.257s]   the following names:
+[1.257s] 
+[1.257s]     VTKConfig.cmake
+[1.257s]     vtk-config.cmake
+[1.257s] 
+[1.257s]   Add the installation prefix of "VTK" to CMAKE_PREFIX_PATH or set "VTK_DIR"
+[1.258s]   to a directory containing one of the above files.  If "VTK" provides a
+[1.258s]   separate development package or SDK, be sure it has been installed.
+[1.258s] Call Stack (most recent call first):
+[1.258s]   /usr/local/share/pcl-1.14/PCLConfig.cmake:289 (find_VTK)
+[1.258s]   /usr/local/share/pcl-1.14/PCLConfig.cmake:505 (find_external_library)
+[1.258s]   CMakeLists.txt:19 (find_package)
+[1.258s] 
+[1.258s] [0m
+[1.258s] [0m** WARNING ** io features related to vtk will be disabled[0m
+[1.274s] -- looking for PCL_COMMON
+[1.274s] -- looking for PCL_OCTREE
+[1.275s] -- looking for PCL_GEOMETRY
+[1.275s] -- looking for PCL_IO
+[1.275s] -- looking for PCL_ML
+[1.276s] -- looking for PCL_STEREO
+[1.278s] -- Found pcl_msgs: 1.0.0 (/opt/ros/jazzy/share/pcl_msgs/cmake)
+[1.319s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.507s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.547s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.548s] -- Configured cppcheck include dirs: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/include/cspc_lidar;/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/sdk
+[1.549s] -- Configured cppcheck exclude dirs and/or files: 
+[1.584s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.584s] -- Configured cpplint exclude dirs and/or files: 
+[1.590s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.590s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.598s] -- Added test 'lint_cmake' to check CMake code style
+[1.603s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.631s] -- Added test 'uncrustify' to check C / C++ code style
+[1.631s] -- Configured uncrustify additional arguments: 
+[1.636s] -- Added test 'xmllint' to check XML markup files
+[1.639s] -- Configuring done (1.6s)
+[1.669s] -- Generating done (0.0s)
+[1.672s] -- Build files have been written to: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar
+[1.690s] Invoked command in '/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110 -DCMAKE_CXX_FLAGS=-w -DCMAKE_INSTALL_PREFIX=/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar
+[1.692s] Invoking command in '/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar -- -j20 -l20
+[1.840s] [ 11%] [32mBuilding CXX object CMakeFiles/cspc_lidar.dir/sdk/serial_port.cpp.o[0m
+[1.841s] [ 22%] [32mBuilding CXX object CMakeFiles/cspc_lidar.dir/sdk/timer.cpp.o[0m
+[1.841s] [ 33%] [32mBuilding CXX object CMakeFiles/cspc_lidar.dir/sdk/lidar_data_processing.cpp.o[0m
+[1.842s] [ 44%] [32mBuilding CXX object CMakeFiles/cspc_lidar.dir/sdk/mtime.cpp.o[0m
+[1.842s] [ 55%] [32mBuilding CXX object CMakeFiles/cspc_lidar.dir/sdk/calibration.cpp.o[0m
+[1.843s] [ 66%] [32mBuilding CXX object CMakeFiles/cspc_lidar.dir/sdk/node_lidar.cpp.o[0m
+[1.848s] [ 77%] [32mBuilding CXX object CMakeFiles/cspc_lidar.dir/sdk/point_cloud_optimize.cpp.o[0m
+[1.856s] [ 88%] [32mBuilding CXX object CMakeFiles/cspc_lidar.dir/src/node_lidar_ros.cpp.o[0m
+[18.503s] [100%] [32m[1mLinking CXX executable cspc_lidar[0m
+[18.988s] [100%] Built target cspc_lidar
+[19.008s] Invoked command in '/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar -- -j20 -l20
+[19.125s] Invoking command in '/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar
+[19.144s] -- Install configuration: ""
+[19.144s] -- Execute custom install script
+[19.145s] -- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/lib/cspc_lidar/cspc_lidar
+[19.145s] -- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/launch/lidar_launch.py
+[19.146s] -- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/launch/lidar_rviz.py
+[19.146s] -- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/params/cspc_lidar.yaml
+[19.146s] -- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/ament_index/resource_index/package_run_dependencies/cspc_lidar
+[19.146s] -- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/ament_index/resource_index/parent_prefix_path/cspc_lidar
+[19.146s] -- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/environment/ament_prefix_path.sh
+[19.147s] -- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/environment/ament_prefix_path.dsv
+[19.147s] -- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/environment/path.sh
+[19.147s] -- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/environment/path.dsv
+[19.147s] -- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/local_setup.bash
+[19.147s] -- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/local_setup.sh
+[19.147s] -- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/local_setup.zsh
+[19.147s] -- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/local_setup.dsv
+[19.147s] -- Symlinking: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/package.dsv
+[19.164s] -- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/ament_index/resource_index/packages/cspc_lidar
+[19.164s] -- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/cmake/cspc_lidarConfig.cmake
+[19.164s] -- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/cmake/cspc_lidarConfig-version.cmake
+[19.164s] -- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/package.xml
+[19.167s] Invoked command in '/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar

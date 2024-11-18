@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-7bbf1a1670667b0acb99.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cspc_lidar",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cspc_lidar::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cspc_lidar-Debug-475292cf80202864ac5b.json",
+					"name" : "cspc_lidar",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cspc_lidar_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cspc_lidar_uninstall-Debug-1984e2ff8a4d78ebb32c.json",
+					"name" : "cspc_lidar_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Debug-e5adce59e45d4fc47b97.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build",
+		"source" : "/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

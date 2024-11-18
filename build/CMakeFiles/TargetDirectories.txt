@@ -1,0 +1,10 @@
+/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/uninstall.dir
+/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/cspc_lidar_uninstall.dir
+/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/cspc_lidar.dir
+/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/test.dir
+/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/edit_cache.dir
+/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/rebuild_cache.dir
+/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/list_install_components.dir
+/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/install.dir
+/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/install/local.dir
+/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/CMakeFiles/install/strip.dir

@@ -1,0 +1,505 @@
+[33mCMake Warning at /usr/local/share/pcl-1.14/PCLConfig.cmake:240 (find_package):
+  By not providing "FindVTK.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "VTK", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "VTK" with any of
+  the following names:
+
+    VTKConfig.cmake
+    vtk-config.cmake
+
+  Add the installation prefix of "VTK" to CMAKE_PREFIX_PATH or set "VTK_DIR"
+  to a directory containing one of the above files.  If "VTK" provides a
+  separate development package or SDK, be sure it has been installed.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.14/PCLConfig.cmake:289 (find_VTK)
+  /usr/local/share/pcl-1.14/PCLConfig.cmake:505 (find_external_library)
+  CMakeLists.txt:19 (find_package)
+
+[0m
+[0m** WARNING ** io features related to vtk will be disabled[0m
+In file included from [01m[K/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/include/cspc_lidar/pcl_conversions/pcl_conversions.h:45[m[K,
+                 from [01m[K/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/src/node_lidar_ros.cpp:11[m[K:
+[01m[K/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/include/cspc_lidar/message_filters/message_filters/message_event.h:18:2:[m[K [01;35m[Kwarning: [m[K#warning before C++23 is a GCC extension
+   18 | #[01;35m[Kwarning[m[K This header is obsolete, please include message_filters/message_event.hpp instead
+      |  [01;35m[K^~~~~~~[m[K
+[01m[K/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/include/cspc_lidar/message_filters/message_filters/message_event.h:18:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include message_filters/message_event.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+In file included from [01m[K/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/include/cspc_lidar/pcl_conversions/pcl_conversions.h:46[m[K:
+[01m[K/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/include/cspc_lidar/message_filters/message_filters/message_traits.h:18:2:[m[K [01;35m[Kwarning: [m[K#warning before C++23 is a GCC extension
+   18 | #[01;35m[Kwarning[m[K This header is obsolete, please include message_filters/message_traits.hpp instead
+      |  [01;35m[K^~~~~~~[m[K
+[01m[K/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/include/cspc_lidar/message_filters/message_filters/message_traits.h:18:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include message_filters/message_traits.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+In file included from [01m[K/usr/local/include/pcl-1.14/pcl/point_types.h:354[m[K,
+                 from [01m[K/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/src/node_lidar_ros.cpp:9[m[K:
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:214:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  214 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:234:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  234 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:312:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+  312 |     [01;36m[KPCL_ADD_POINT4D[m[K // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:264:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  264 |       [01;35m[K{[m[K \
+      |       [01;35m[K^[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:288:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_RGB[m[K’
+  288 |   [01;36m[KPCL_ADD_UNION_RGB[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:339:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_RGB[m[K’
+  339 |     [01;36m[KPCL_ADD_RGB[m[K
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:293:5:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  293 |     [01;35m[K{[m[K \
+      |     [01;35m[K^[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:375:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_INTENSITY[m[K’
+  375 |     [01;36m[KPCL_ADD_INTENSITY[m[K
+      |     [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:299:5:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  299 |     [01;35m[K{[m[K \
+      |     [01;35m[K^[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:395:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_INTENSITY_8U[m[K’
+  395 |     [01;36m[KPCL_ADD_INTENSITY_8U[m[K;
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:395:25:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  395 |     PCL_ADD_INTENSITY_8U[01;35m[K;[m[K
+      |                         [01;35m[K^[m[K
+      |                         [31m[K-[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:305:5:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  305 |     [01;35m[K{[m[K \
+      |     [01;35m[K^[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:421:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_INTENSITY_32U[m[K’
+  421 |     [01;36m[KPCL_ADD_INTENSITY_32U[m[K;
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:421:26:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  421 |     PCL_ADD_INTENSITY_32U[01;35m[K;[m[K
+      |                          [01;35m[K^[m[K
+      |                          [31m[K-[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:214:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  214 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:234:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  234 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:443:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+  443 |     [01;36m[KPCL_ADD_POINT4D[m[K // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:447:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  447 |       [01;35m[K{[m[K
+      |       [01;35m[K^[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:214:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  214 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:234:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  234 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:470:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+  470 |     [01;36m[KPCL_ADD_POINT4D[m[K // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:214:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  214 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:234:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  234 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:501:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+  501 |     [01;36m[KPCL_ADD_POINT4D[m[K // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:264:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  264 |       [01;35m[K{[m[K \
+      |       [01;35m[K^[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:288:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_RGB[m[K’
+  288 |   [01;36m[KPCL_ADD_UNION_RGB[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:502:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_RGB[m[K’
+  502 |     [01;36m[KPCL_ADD_RGB[m[K
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:214:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  214 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:234:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  234 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:548:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+  548 |     [01;36m[KPCL_ADD_POINT4D[m[K // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:264:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  264 |       [01;35m[K{[m[K \
+      |       [01;35m[K^[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:288:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_RGB[m[K’
+  288 |   [01;36m[KPCL_ADD_UNION_RGB[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:549:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_RGB[m[K’
+  549 |     [01;36m[KPCL_ADD_RGB[m[K
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:214:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  214 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:234:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  234 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:555:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+  555 |     [01;36m[KPCL_ADD_POINT4D[m[K // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:264:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  264 |       [01;35m[K{[m[K \
+      |       [01;35m[K^[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:288:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_RGB[m[K’
+  288 |   [01;36m[KPCL_ADD_UNION_RGB[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:556:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_RGB[m[K’
+  556 |     [01;36m[KPCL_ADD_RGB[m[K
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:214:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  214 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:234:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  234 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:640:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+  640 |     [01;36m[KPCL_ADD_POINT4D[m[K // this adds the members x,y,z
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:644:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  644 |       [01;35m[K{[m[K
+      |       [01;35m[K^[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:214:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  214 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:234:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  234 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:675:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+  675 |     [01;36m[KPCL_ADD_POINT4D[m[K    // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:679:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  679 |       [01;35m[K{[m[K
+      |       [01;35m[K^[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:721:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  721 |       [01;35m[K{[m[K
+      |       [01;35m[K^[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:214:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  214 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:234:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  234 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:761:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+  761 |     [01;36m[KPCL_ADD_POINT4D[m[K // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:765:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  765 |       [01;35m[K{[m[K
+      |       [01;35m[K^[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  241 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:255:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_NORMAL4D[m[K’
+  255 |   [01;36m[KPCL_ADD_UNION_NORMAL4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:777:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_NORMAL4D[m[K’
+  777 |     [01;36m[KPCL_ADD_NORMAL4D[m[K // This adds the member normal[3] which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:781:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  781 |       [01;35m[K{[m[K
+      |       [01;35m[K^[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  241 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:255:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_NORMAL4D[m[K’
+  255 |   [01;36m[KPCL_ADD_UNION_NORMAL4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:809:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_NORMAL4D[m[K’
+  809 |     [01;36m[KPCL_ADD_NORMAL4D[m[K
+      |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:214:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  214 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:234:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  234 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:832:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+  832 |     [01;36m[KPCL_ADD_POINT4D[m[K // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  241 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:255:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_NORMAL4D[m[K’
+  255 |   [01;36m[KPCL_ADD_UNION_NORMAL4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:833:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_NORMAL4D[m[K’
+  833 |     [01;36m[KPCL_ADD_NORMAL4D[m[K // This adds the member normal[3] which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:837:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  837 |       [01;35m[K{[m[K
+      |       [01;35m[K^[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:214:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  214 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:234:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  234 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:867:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+  867 |     [01;36m[KPCL_ADD_POINT4D[m[K // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  241 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:255:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_NORMAL4D[m[K’
+  255 |   [01;36m[KPCL_ADD_UNION_NORMAL4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:868:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_NORMAL4D[m[K’
+  868 |     [01;36m[KPCL_ADD_NORMAL4D[m[K // This adds the member normal[3] which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:264:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  264 |       [01;35m[K{[m[K \
+      |       [01;35m[K^[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:873:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_RGB[m[K’
+  873 |         [01;36m[KPCL_ADD_UNION_RGB[m[K
+      |         [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:872:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  872 |       [01;35m[K{[m[K
+      |       [01;35m[K^[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:214:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  214 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:234:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  234 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:953:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+  953 |     [01;36m[KPCL_ADD_POINT4D[m[K // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  241 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:255:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_NORMAL4D[m[K’
+  255 |   [01;36m[KPCL_ADD_UNION_NORMAL4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:954:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_NORMAL4D[m[K’
+  954 |     [01;36m[KPCL_ADD_NORMAL4D[m[K // This adds the member normal[3] which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:958:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  958 |       [01;35m[K{[m[K
+      |       [01;35m[K^[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:214:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  214 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:234:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  234 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:996:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+  996 |     [01;36m[KPCL_ADD_POINT4D[m[K // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  241 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:255:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_NORMAL4D[m[K’
+  255 |   [01;36m[KPCL_ADD_UNION_NORMAL4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:997:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_NORMAL4D[m[K’
+  997 |     [01;36m[KPCL_ADD_NORMAL4D[m[K // This adds the member normal[3] which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:1001:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+ 1001 |       [01;35m[K{[m[K
+      |       [01;35m[K^[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:214:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  214 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:234:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  234 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:1041:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+ 1041 |     [01;36m[KPCL_ADD_POINT4D[m[K // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:1045:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+ 1045 |       [01;35m[K{[m[K
+      |       [01;35m[K^[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:214:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  214 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:234:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  234 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:1072:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+ 1072 |     [01;36m[KPCL_ADD_POINT4D[m[K // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:1076:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+ 1076 |       [01;35m[K{[m[K
+      |       [01;35m[K^[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:1164:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+ 1164 |       [01;35m[K{[m[K
+      |       [01;35m[K^[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:1357:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+ 1357 |       [01;35m[K{[m[K
+      |       [01;35m[K^[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:1580:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+ 1580 |       [01;35m[K{[m[K
+      |       [01;35m[K^[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:214:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  214 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:234:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  234 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:1606:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+ 1606 |     [01;36m[KPCL_ADD_POINT4D[m[K // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:214:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  214 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:234:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  234 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:1646:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+ 1646 |     [01;36m[KPCL_ADD_POINT4D[m[K // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  241 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:255:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_NORMAL4D[m[K’
+  255 |   [01;36m[KPCL_ADD_UNION_NORMAL4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:1647:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_NORMAL4D[m[K’
+ 1647 |     [01;36m[KPCL_ADD_NORMAL4D[m[K // This adds the member normal[3] which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:264:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  264 |       [01;35m[K{[m[K \
+      |       [01;35m[K^[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:1652:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_RGB[m[K’
+ 1652 |         [01;36m[KPCL_ADD_UNION_RGB[m[K
+      |         [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:1651:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+ 1651 |       [01;35m[K{[m[K
+      |       [01;35m[K^[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:214:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  214 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:234:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  234 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:1690:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+ 1690 |     [01;36m[KPCL_ADD_POINT4D[m[K
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/src/node_lidar_ros.cpp:[m[K In function ‘[01m[Kint[01;32m[K Scan_to_PointCloud[m[K(LaserScan&, sensor_msgs::msg::PointCloud2&)[m[K’:
+[01m[K/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/src/node_lidar_ros.cpp:85:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<LaserPoint>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   85 |   for (int i = 0; [01;35m[Ki < scan.points.size()[m[K; i++)
+      |                   [01;35m[K~~^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/src/node_lidar_ros.cpp:[m[K In function ‘[01m[Kint[01;32m[K topic_thread[m[K()[m[K’:
+[01m[K/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/src/node_lidar_ros.cpp:99:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+   99 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/src/node_lidar_ros.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/src/node_lidar_ros.cpp:107:26:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::declare_parameter(const char [5])[m[K’
+  107 |   [01;31m[Knode->declare_parameter("port")[m[K;
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K,
+                 from [01m[K/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/include/cspc_lidar/node_lidar_ros.h:4[m[K,
+                 from [01m[K/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/src/node_lidar_ros.cpp:1[m[K:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:500:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::[01;32m[Kdeclare_parameter[m[K(const std::string&, const ParameterT&, const rcl_interfaces::msg::ParameterDescriptor&, bool)[m[K’
+  500 |   [01;36m[Kdeclare_parameter[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:500:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/src/node_lidar_ros.cpp:107:26:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+  107 |   [01;36m[Knode->declare_parameter("port")[m[K;
+      |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:513:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::[01;32m[Kdeclare_parameter[m[K(const std::string&, const rcl_interfaces::msg::ParameterDescriptor&, bool)[m[K’
+  513 |   [01;36m[Kdeclare_parameter[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:513:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/src/node_lidar_ros.cpp:107:26:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+  107 |   [01;36m[Knode->declare_parameter("port")[m[K;
+      |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:445:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::[01;32m[Kdeclare_parameter[m[K(const std::string&, const rclcpp::ParameterValue&, const rcl_interfaces::msg::ParameterDescriptor&, bool)[m[K’
+  445 |   [01;36m[Kdeclare_parameter[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:445:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:470:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::[01;32m[Kdeclare_parameter[m[K(const std::string&, rclcpp::ParameterType, const rcl_interfaces::msg::ParameterDescriptor&, bool)[m[K’
+  470 |   [01;36m[Kdeclare_parameter[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:470:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[01m[K/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/src/node_lidar_ros.cpp:110:26:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::declare_parameter(const char [9])[m[K’
+  110 |   [01;31m[Knode->declare_parameter("baudrate")[m[K;
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:500:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::[01;32m[Kdeclare_parameter[m[K(const std::string&, const ParameterT&, const rcl_interfaces::msg::ParameterDescriptor&, bool)[m[K’
+  500 |   [01;36m[Kdeclare_parameter[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:500:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/src/node_lidar_ros.cpp:110:26:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+  110 |   [01;36m[Knode->declare_parameter("baudrate")[m[K;
+      |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:513:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::[01;32m[Kdeclare_parameter[m[K(const std::string&, const rcl_interfaces::msg::ParameterDescriptor&, bool)[m[K’
+  513 |   [01;36m[Kdeclare_parameter[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:513:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/src/node_lidar_ros.cpp:110:26:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+  110 |   [01;36m[Knode->declare_parameter("baudrate")[m[K;
+      |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:445:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::[01;32m[Kdeclare_parameter[m[K(const std::string&, const rclcpp::ParameterValue&, const rcl_interfaces::msg::ParameterDescriptor&, bool)[m[K’
+  445 |   [01;36m[Kdeclare_parameter[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:445:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:470:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::[01;32m[Kdeclare_parameter[m[K(const std::string&, rclcpp::ParameterType, const rcl_interfaces::msg::ParameterDescriptor&, bool)[m[K’
+  470 |   [01;36m[Kdeclare_parameter[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:470:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[01m[K/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/src/node_lidar_ros.cpp:113:26:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::declare_parameter(const char [9])[m[K’
+  113 |   [01;31m[Knode->declare_parameter("frame_id")[m[K;
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:500:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::[01;32m[Kdeclare_parameter[m[K(const std::string&, const ParameterT&, const rcl_interfaces::msg::ParameterDescriptor&, bool)[m[K’
+  500 |   [01;36m[Kdeclare_parameter[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:500:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/src/node_lidar_ros.cpp:113:26:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+  113 |   [01;36m[Knode->declare_parameter("frame_id")[m[K;
+      |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:513:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::[01;32m[Kdeclare_parameter[m[K(const std::string&, const rcl_interfaces::msg::ParameterDescriptor&, bool)[m[K’
+  513 |   [01;36m[Kdeclare_parameter[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:513:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/src/node_lidar_ros.cpp:113:26:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+  113 |   [01;36m[Knode->declare_parameter("frame_id")[m[K;
+      |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:445:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::[01;32m[Kdeclare_parameter[m[K(const std::string&, const rclcpp::ParameterValue&, const rcl_interfaces::msg::ParameterDescriptor&, bool)[m[K’
+  445 |   [01;36m[Kdeclare_parameter[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:445:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:470:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::[01;32m[Kdeclare_parameter[m[K(const std::string&, rclcpp::ParameterType, const rcl_interfaces::msg::ParameterDescriptor&, bool)[m[K’
+  470 |   [01;36m[Kdeclare_parameter[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:470:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[01m[K/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/src/node_lidar_ros.cpp:116:26:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::declare_parameter(const char [8])[m[K’
+  116 |   [01;31m[Knode->declare_parameter("version")[m[K;
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:500:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::[01;32m[Kdeclare_parameter[m[K(const std::string&, const ParameterT&, const rcl_interfaces::msg::ParameterDescriptor&, bool)[m[K’
+  500 |   [01;36m[Kdeclare_parameter[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:500:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/src/node_lidar_ros.cpp:116:26:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+  116 |   [01;36m[Knode->declare_parameter("version")[m[K;
+      |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:513:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::[01;32m[Kdeclare_parameter[m[K(const std::string&, const rcl_interfaces::msg::ParameterDescriptor&, bool)[m[K’
+  513 |   [01;36m[Kdeclare_parameter[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:513:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/src/node_lidar_ros.cpp:116:26:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+  116 |   [01;36m[Knode->declare_parameter("version")[m[K;
+      |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:445:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::[01;32m[Kdeclare_parameter[m[K(const std::string&, const rclcpp::ParameterValue&, const rcl_interfaces::msg::ParameterDescriptor&, bool)[m[K’
+  445 |   [01;36m[Kdeclare_parameter[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:445:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:470:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::[01;32m[Kdeclare_parameter[m[K(const std::string&, rclcpp::ParameterType, const rcl_interfaces::msg::ParameterDescriptor&, bool)[m[K’
+  470 |   [01;36m[Kdeclare_parameter[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:470:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[01m[K/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/src/node_lidar_ros.cpp:181:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<LaserPoint>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  181 |       for (int i = 0; [01;35m[Ki < scan.points.size()[m[K; i++)
+      |                       [01;35m[K~~^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/src/node_lidar_ros.cpp:[m[K In function ‘[01m[Kint[01;32m[K Scan_to_PointCloud[m[K(LaserScan&, sensor_msgs::msg::PointCloud2&)[m[K’:
+[01m[K/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/src/node_lidar_ros.cpp:94:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+   94 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+gmake[2]: *** [CMakeFiles/cspc_lidar.dir/build.make:174: CMakeFiles/cspc_lidar.dir/src/node_lidar_ros.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cspc_lidar.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

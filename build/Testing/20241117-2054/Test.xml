@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20241117-2054-Experimental"
+	Name="Samuels-Zenbook"
+	Generator="ctest-3.28.3"
+	CompilerName="/usr/bin/clang++"
+	CompilerVersion="18.1.3"
+	OSName="Linux"
+	Hostname="Samuels-Zenbook"
+	OSRelease="6.8.0-48-generic"
+	OSVersion="#48-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep 27 14:04:52 UTC 2024"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="186"
+	ProcessorCacheSize="24576"
+	NumberOfLogicalCPU="20"
+	NumberOfPhysicalCPU="14"
+	TotalVirtualMemory="4095"
+	TotalPhysicalMemory="15599"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="813.583"
+	>
+	<Testing>
+		<StartDateTime>Nov 17 18:11 EST</StartDateTime>
+		<StartTestTime>1731885073</StartTestTime>
+		<TestList/>
+		<EndDateTime>Nov 17 18:11 EST</EndDateTime>
+		<EndTestTime>1731885073</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

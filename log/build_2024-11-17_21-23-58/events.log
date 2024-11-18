@@ -1,0 +1,666 @@
+[0.000000] (-) TimerEvent: {}
+[0.001180] (cspc_lidar) JobQueued: {'identifier': 'cspc_lidar', 'dependencies': OrderedDict()}
+[0.001250] (cspc_lidar) JobStarted: {'identifier': 'cspc_lidar'}
+[0.011881] (cspc_lidar) JobProgress: {'identifier': 'cspc_lidar', 'progress': 'cmake'}
+[0.013041] (cspc_lidar) JobProgress: {'identifier': 'cspc_lidar', 'progress': 'build'}
+[0.013107] (cspc_lidar) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar', '--', '-j20', '-l20'], 'cwd': '/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'samuel', 'OPENVDB_DIR': '/home/linuxbrew/.linuxbrew/Cellar/openvdb/11.0.0_2', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/samuel', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/include', 'TERM_PROGRAM_VERSION': '1.95.3', 'NLOPT': '/home/linuxbrew/.linuxbrew/Cellar/nlopt/2.7.1', 'DESKTOP_SESSION': 'ubuntu', 'OpenVDB_INCLUDE_DIR': '/home/linuxbrew/.linuxbrew/Cellar/openvdb/11.0.0_2/include', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'HOMEBREW_PREFIX': '/home/linuxbrew/.linuxbrew', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'NIX_PROFILES': '/nix/var/nix/profiles/default /home/samuel/.nix-profile', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '3553', 'SYSTEMD_EXEC_PID': '3943', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '141043', 'NVM_DIR': '/home/samuel/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'INFOPATH': '/home/linuxbrew/.linuxbrew/share/info:/home/linuxbrew/.linuxbrew/share/info:', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'samuel', 'JOURNAL_STREAM': '8:28569', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'samuel', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/home/samuel/.nix-profile/bin:/nix/var/nix/profiles/default/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/home/samuel/.nix-profile/bin:/nix/var/nix/profiles/default/bin:/opt/ros/jazzy/bin:/home/samuel/.nix-profile/bin:/nix/var/nix/profiles/default/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/samuel/.dotnet/tools:/home/samuel/Documents/node-v20.14.0-linux-x64/bin:/home/samuel/Documents/jdk-21/bin:/home/samuel/.cargo/bin:/home/samuel/Documents/gradle-8.8/bin:/home/samuel/.platformio/penv/bin:/home/samuel/Documents/bazel:/home/samuel/Android/Sdk/platform-tools:/home/samuel/.local/share/JetBrains/Toolbox/scripts:/home/samuel/Documents/node-v20.14.0-linux-x64/bin:/home/samuel/Documents/jdk-21/bin:/home/samuel/.cargo/bin:/home/samuel/Documents/gradle-8.8/bin:/home/samuel/.platformio/penv/bin:/home/samuel/Documents/bazel:/home/samuel/Android/Sdk/platform-tools:/home/samuel/.local/share/JetBrains/Toolbox/scripts:/home/samuel/Documents/node-v20.14.0-linux-x64/bin:/home/samuel/Documents/jdk-21/bin:/home/samuel/.cargo/bin:/home/samuel/Documents/gradle-8.8/bin:/home/samuel/.platformio/penv/bin:/home/samuel/Documents/bazel:/home/samuel/Android/Sdk/platform-tools', 'SESSION_MANAGER': 'local/Samuels-Zenbook:@/tmp/.ICE-unix/3899,unix/Samuels-Zenbook:/tmp/.ICE-unix/3899', 'INVOCATION_ID': '5134cef5e5454ae8ae67bcf79920bf19', 'HOMEBREW_CELLAR': '/home/linuxbrew/.linuxbrew/Cellar', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'DOTNET_BUNDLE_EXTRACT_BASE_DIR': '/home/samuel/.cache/dotnet_bundle_extract', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.SNO1W2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-473b051517.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'NIX_SSL_CERT_FILE': '/etc/ssl/certs/ca-certificates.crt', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'JAVA_HOME': '/usr/lib/jvm/java-1.17.0-openjdk-amd64', 'PWD': '/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/samuel/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop:/home/samuel/.nix-profile/share:/nix/var/nix/profiles/default/share:/home/samuel/.nix-profile/share:/nix/var/nix/profiles/default/share:/home/samuel/.nix-profile/share:/nix/var/nix/profiles/default/share', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'HOMEBREW_REPOSITORY': '/home/linuxbrew/.linuxbrew/Homebrew', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'MANPATH': '/home/linuxbrew/.linuxbrew/share/man:/home/linuxbrew/.linuxbrew/share/man::', 'NVM_RC_VERSION': '', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.071630] (cspc_lidar) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099679] (-) TimerEvent: {}
+[0.200287] (-) TimerEvent: {}
+[0.300871] (-) TimerEvent: {}
+[0.401355] (-) TimerEvent: {}
+[0.492971] (cspc_lidar) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.501503] (-) TimerEvent: {}
+[0.503423] (cspc_lidar) StdoutLine: {'line': b'-- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.558478] (cspc_lidar) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.582408] (cspc_lidar) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.597917] (cspc_lidar) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.601712] (-) TimerEvent: {}
+[0.614565] (cspc_lidar) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.694636] (cspc_lidar) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.696185] (cspc_lidar) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.701891] (-) TimerEvent: {}
+[0.793906] (cspc_lidar) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.802178] (-) TimerEvent: {}
+[0.902761] (-) TimerEvent: {}
+[0.924211] (cspc_lidar) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[1.002926] (-) TimerEvent: {}
+[1.009055] (cspc_lidar) StdoutLine: {'line': b'-- Found visualization_msgs: 5.3.5 (/opt/ros/jazzy/share/visualization_msgs/cmake)\n'}
+[1.103199] (-) TimerEvent: {}
+[1.150465] (cspc_lidar) StderrLine: {'line': b'\x1b[33mCMake Warning at /usr/local/share/pcl-1.14/PCLConfig.cmake:240 (find_package):\n'}
+[1.151145] (cspc_lidar) StderrLine: {'line': b'  By not providing "FindVTK.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[1.151256] (cspc_lidar) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "VTK", but\n'}
+[1.151332] (cspc_lidar) StderrLine: {'line': b'  CMake did not find one.\n'}
+[1.151403] (cspc_lidar) StderrLine: {'line': b'\n'}
+[1.151476] (cspc_lidar) StderrLine: {'line': b'  Could not find a package configuration file provided by "VTK" with any of\n'}
+[1.151549] (cspc_lidar) StderrLine: {'line': b'  the following names:\n'}
+[1.151616] (cspc_lidar) StderrLine: {'line': b'\n'}
+[1.151680] (cspc_lidar) StderrLine: {'line': b'    VTKConfig.cmake\n'}
+[1.151748] (cspc_lidar) StderrLine: {'line': b'    vtk-config.cmake\n'}
+[1.151817] (cspc_lidar) StderrLine: {'line': b'\n'}
+[1.151883] (cspc_lidar) StderrLine: {'line': b'  Add the installation prefix of "VTK" to CMAKE_PREFIX_PATH or set "VTK_DIR"\n'}
+[1.151950] (cspc_lidar) StderrLine: {'line': b'  to a directory containing one of the above files.  If "VTK" provides a\n'}
+[1.152013] (cspc_lidar) StderrLine: {'line': b'  separate development package or SDK, be sure it has been installed.\n'}
+[1.152075] (cspc_lidar) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.152346] (cspc_lidar) StderrLine: {'line': b'  /usr/local/share/pcl-1.14/PCLConfig.cmake:289 (find_VTK)\n'}
+[1.152639] (cspc_lidar) StderrLine: {'line': b'  /usr/local/share/pcl-1.14/PCLConfig.cmake:505 (find_external_library)\n'}
+[1.152849] (cspc_lidar) StderrLine: {'line': b'  CMakeLists.txt:19 (find_package)\n'}
+[1.153038] (cspc_lidar) StderrLine: {'line': b'\n'}
+[1.153272] (cspc_lidar) StderrLine: {'line': b'\x1b[0m\n'}
+[1.153461] (cspc_lidar) StderrLine: {'line': b'\x1b[0m** WARNING ** io features related to vtk will be disabled\x1b[0m\n'}
+[1.164816] (cspc_lidar) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[1.165570] (cspc_lidar) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[1.165777] (cspc_lidar) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[1.166028] (cspc_lidar) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[1.166743] (cspc_lidar) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[1.167240] (cspc_lidar) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[1.168456] (cspc_lidar) StdoutLine: {'line': b'-- Found pcl_msgs: 1.0.0 (/opt/ros/jazzy/share/pcl_msgs/cmake)\n'}
+[1.203225] (cspc_lidar) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.203645] (-) TimerEvent: {}
+[1.304007] (-) TimerEvent: {}
+[1.363975] (cspc_lidar) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.384578] (cspc_lidar) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.385065] (cspc_lidar) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/include/cspc_lidar;/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/sdk\n'}
+[1.385315] (cspc_lidar) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.404191] (-) TimerEvent: {}
+[1.404725] (cspc_lidar) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.405154] (cspc_lidar) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.408030] (cspc_lidar) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.408392] (cspc_lidar) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[1.413388] (cspc_lidar) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.416454] (cspc_lidar) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.436781] (cspc_lidar) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.437055] (cspc_lidar) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.440073] (cspc_lidar) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.441490] (cspc_lidar) StdoutLine: {'line': b'-- Configuring done (1.4s)\n'}
+[1.459626] (cspc_lidar) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.461774] (cspc_lidar) StdoutLine: {'line': b'-- Build files have been written to: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar\n'}
+[1.504375] (-) TimerEvent: {}
+[1.601753] (cspc_lidar) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/cspc_lidar.dir/src/node_lidar_ros.cpp.o\x1b[0m\n'}
+[1.604427] (-) TimerEvent: {}
+[1.704822] (-) TimerEvent: {}
+[1.805189] (-) TimerEvent: {}
+[1.905662] (-) TimerEvent: {}
+[2.006191] (-) TimerEvent: {}
+[2.106611] (-) TimerEvent: {}
+[2.207126] (-) TimerEvent: {}
+[2.307578] (-) TimerEvent: {}
+[2.408172] (-) TimerEvent: {}
+[2.508674] (-) TimerEvent: {}
+[2.609156] (-) TimerEvent: {}
+[2.709687] (-) TimerEvent: {}
+[2.810244] (-) TimerEvent: {}
+[2.910574] (-) TimerEvent: {}
+[3.010926] (-) TimerEvent: {}
+[3.111265] (-) TimerEvent: {}
+[3.130886] (cspc_lidar) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/include/cspc_lidar/pcl_conversions/pcl_conversions.h:45\x1b[m\x1b[K,\n'}
+[3.131147] (cspc_lidar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/src/node_lidar_ros.cpp:11\x1b[m\x1b[K:\n'}
+[3.131230] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/include/cspc_lidar/message_filters/message_filters/message_event.h:18:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning before C++23 is a GCC extension\n'}
+[3.131302] (cspc_lidar) StderrLine: {'line': b'   18 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K This header is obsolete, please include message_filters/message_event.hpp instead\n'}
+[3.131379] (cspc_lidar) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.131444] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/include/cspc_lidar/message_filters/message_filters/message_event.h:18:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning This header is obsolete, please include message_filters/message_event.hpp instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.131522] (cspc_lidar) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/include/cspc_lidar/pcl_conversions/pcl_conversions.h:46\x1b[m\x1b[K:\n'}
+[3.131588] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/include/cspc_lidar/message_filters/message_filters/message_traits.h:18:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning before C++23 is a GCC extension\n'}
+[3.131652] (cspc_lidar) StderrLine: {'line': b'   18 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K This header is obsolete, please include message_filters/message_traits.hpp instead\n'}
+[3.131714] (cspc_lidar) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.131775] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/include/cspc_lidar/message_filters/message_filters/message_traits.h:18:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning This header is obsolete, please include message_filters/message_traits.hpp instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.211374] (-) TimerEvent: {}
+[3.311665] (-) TimerEvent: {}
+[3.411986] (-) TimerEvent: {}
+[3.512302] (-) TimerEvent: {}
+[3.612635] (-) TimerEvent: {}
+[3.713026] (-) TimerEvent: {}
+[3.813350] (-) TimerEvent: {}
+[3.913672] (-) TimerEvent: {}
+[4.014015] (-) TimerEvent: {}
+[4.114336] (-) TimerEvent: {}
+[4.214669] (-) TimerEvent: {}
+[4.314957] (-) TimerEvent: {}
+[4.415321] (-) TimerEvent: {}
+[4.515632] (-) TimerEvent: {}
+[4.615983] (-) TimerEvent: {}
+[4.716579] (-) TimerEvent: {}
+[4.817110] (-) TimerEvent: {}
+[4.917475] (-) TimerEvent: {}
+[5.017955] (-) TimerEvent: {}
+[5.118333] (-) TimerEvent: {}
+[5.218727] (-) TimerEvent: {}
+[5.319179] (-) TimerEvent: {}
+[5.419556] (-) TimerEvent: {}
+[5.519909] (-) TimerEvent: {}
+[5.620431] (-) TimerEvent: {}
+[5.720909] (-) TimerEvent: {}
+[5.821411] (-) TimerEvent: {}
+[5.921821] (-) TimerEvent: {}
+[6.022186] (-) TimerEvent: {}
+[6.122589] (-) TimerEvent: {}
+[6.222959] (-) TimerEvent: {}
+[6.323327] (-) TimerEvent: {}
+[6.423806] (-) TimerEvent: {}
+[6.501312] (cspc_lidar) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/point_types.h:354\x1b[m\x1b[K,\n'}
+[6.501631] (cspc_lidar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/src/node_lidar_ros.cpp:9\x1b[m\x1b[K:\n'}
+[6.501792] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:214:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.501947] (cspc_lidar) StderrLine: {'line': b'  214 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[6.502111] (cspc_lidar) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.502267] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:234:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.502413] (cspc_lidar) StderrLine: {'line': b'  234 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[6.502582] (cspc_lidar) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.502724] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:312:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.502867] (cspc_lidar) StderrLine: {'line': b'  312 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[6.503008] (cspc_lidar) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.524023] (-) TimerEvent: {}
+[6.624383] (-) TimerEvent: {}
+[6.697168] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:264:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.711372] (cspc_lidar) StderrLine: {'line': b'  264 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[6.711551] (cspc_lidar) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.711701] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:288:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_RGB\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.711849] (cspc_lidar) StderrLine: {'line': b'  288 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_RGB\x1b[m\x1b[K \\\n'}
+[6.711991] (cspc_lidar) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.712142] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:339:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_RGB\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.712300] (cspc_lidar) StderrLine: {'line': b'  339 |     \x1b[01;36m\x1b[KPCL_ADD_RGB\x1b[m\x1b[K\n'}
+[6.712438] (cspc_lidar) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.724490] (-) TimerEvent: {}
+[6.807815] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:293:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.808396] (cspc_lidar) StderrLine: {'line': b'  293 |     \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[6.808500] (cspc_lidar) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.808566] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:375:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_INTENSITY\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.808638] (cspc_lidar) StderrLine: {'line': b'  375 |     \x1b[01;36m\x1b[KPCL_ADD_INTENSITY\x1b[m\x1b[K\n'}
+[6.809176] (cspc_lidar) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.809288] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:299:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.809357] (cspc_lidar) StderrLine: {'line': b'  299 |     \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[6.809420] (cspc_lidar) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.809480] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:395:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_INTENSITY_8U\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.809558] (cspc_lidar) StderrLine: {'line': b'  395 |     \x1b[01;36m\x1b[KPCL_ADD_INTENSITY_8U\x1b[m\x1b[K;\n'}
+[6.809617] (cspc_lidar) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.809673] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:395:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.809735] (cspc_lidar) StderrLine: {'line': b'  395 |     PCL_ADD_INTENSITY_8U\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[6.809790] (cspc_lidar) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.809844] (cspc_lidar) StderrLine: {'line': b'      |                         \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[6.809899] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:305:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.809958] (cspc_lidar) StderrLine: {'line': b'  305 |     \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[6.810015] (cspc_lidar) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.810068] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:421:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_INTENSITY_32U\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.810134] (cspc_lidar) StderrLine: {'line': b'  421 |     \x1b[01;36m\x1b[KPCL_ADD_INTENSITY_32U\x1b[m\x1b[K;\n'}
+[6.810190] (cspc_lidar) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.810246] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:421:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.810301] (cspc_lidar) StderrLine: {'line': b'  421 |     PCL_ADD_INTENSITY_32U\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[6.810357] (cspc_lidar) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.810413] (cspc_lidar) StderrLine: {'line': b'      |                          \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[6.810470] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:214:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.810527] (cspc_lidar) StderrLine: {'line': b'  214 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[6.810584] (cspc_lidar) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.810638] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:234:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.810702] (cspc_lidar) StderrLine: {'line': b'  234 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[6.810761] (cspc_lidar) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.810821] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:443:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.810880] (cspc_lidar) StderrLine: {'line': b'  443 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[6.811001] (cspc_lidar) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.811057] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:447:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.811127] (cspc_lidar) StderrLine: {'line': b'  447 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[6.811184] (cspc_lidar) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.811236] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:214:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.811290] (cspc_lidar) StderrLine: {'line': b'  214 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[6.811346] (cspc_lidar) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.811402] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:234:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.811458] (cspc_lidar) StderrLine: {'line': b'  234 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[6.811513] (cspc_lidar) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.811567] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:470:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.811623] (cspc_lidar) StderrLine: {'line': b'  470 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[6.811677] (cspc_lidar) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.812479] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:214:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.812678] (cspc_lidar) StderrLine: {'line': b'  214 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[6.812751] (cspc_lidar) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.812811] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:234:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.812885] (cspc_lidar) StderrLine: {'line': b'  234 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[6.812945] (cspc_lidar) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.813003] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:501:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.813061] (cspc_lidar) StderrLine: {'line': b'  501 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[6.813132] (cspc_lidar) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.813188] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:264:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.813250] (cspc_lidar) StderrLine: {'line': b'  264 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[6.813307] (cspc_lidar) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.813364] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:288:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_RGB\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.813421] (cspc_lidar) StderrLine: {'line': b'  288 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_RGB\x1b[m\x1b[K \\\n'}
+[6.813477] (cspc_lidar) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.813531] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:502:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_RGB\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.813587] (cspc_lidar) StderrLine: {'line': b'  502 |     \x1b[01;36m\x1b[KPCL_ADD_RGB\x1b[m\x1b[K\n'}
+[6.813643] (cspc_lidar) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.815347] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:214:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.815508] (cspc_lidar) StderrLine: {'line': b'  214 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[6.815579] (cspc_lidar) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.815645] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:234:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.815713] (cspc_lidar) StderrLine: {'line': b'  234 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[6.815779] (cspc_lidar) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.815842] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:548:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.815909] (cspc_lidar) StderrLine: {'line': b'  548 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[6.815973] (cspc_lidar) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.816240] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:264:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.816407] (cspc_lidar) StderrLine: {'line': b'  264 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[6.816477] (cspc_lidar) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.816541] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:288:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_RGB\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.816604] (cspc_lidar) StderrLine: {'line': b'  288 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_RGB\x1b[m\x1b[K \\\n'}
+[6.816664] (cspc_lidar) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.816723] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:549:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_RGB\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.816811] (cspc_lidar) StderrLine: {'line': b'  549 |     \x1b[01;36m\x1b[KPCL_ADD_RGB\x1b[m\x1b[K\n'}
+[6.816868] (cspc_lidar) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.817253] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:214:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.817430] (cspc_lidar) StderrLine: {'line': b'  214 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[6.817502] (cspc_lidar) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.817565] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:234:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.817631] (cspc_lidar) StderrLine: {'line': b'  234 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[6.817693] (cspc_lidar) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.817752] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:555:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.817811] (cspc_lidar) StderrLine: {'line': b'  555 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[6.817866] (cspc_lidar) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.817920] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:264:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.817986] (cspc_lidar) StderrLine: {'line': b'  264 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[6.818045] (cspc_lidar) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.818112] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:288:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_RGB\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.818174] (cspc_lidar) StderrLine: {'line': b'  288 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_RGB\x1b[m\x1b[K \\\n'}
+[6.818230] (cspc_lidar) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.818286] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:556:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_RGB\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.818342] (cspc_lidar) StderrLine: {'line': b'  556 |     \x1b[01;36m\x1b[KPCL_ADD_RGB\x1b[m\x1b[K\n'}
+[6.818397] (cspc_lidar) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.821472] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:214:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.821726] (cspc_lidar) StderrLine: {'line': b'  214 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[6.821885] (cspc_lidar) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.822033] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:234:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.822222] (cspc_lidar) StderrLine: {'line': b'  234 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[6.822369] (cspc_lidar) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.822512] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:640:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.822661] (cspc_lidar) StderrLine: {'line': b'  640 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K // this adds the members x,y,z\n'}
+[6.822803] (cspc_lidar) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.822943] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:644:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.823092] (cspc_lidar) StderrLine: {'line': b'  644 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[6.823242] (cspc_lidar) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.823531] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:214:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.823780] (cspc_lidar) StderrLine: {'line': b'  214 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[6.823940] (cspc_lidar) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.824100] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:234:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.824265] (cspc_lidar) StderrLine: {'line': b'  234 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[6.824409] (cspc_lidar) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.824546] (-) TimerEvent: {}
+[6.824688] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:675:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.824856] (cspc_lidar) StderrLine: {'line': b'  675 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K    // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[6.825004] (cspc_lidar) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.825173] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:679:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.825323] (cspc_lidar) StderrLine: {'line': b'  679 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[6.825466] (cspc_lidar) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.825643] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:721:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.825790] (cspc_lidar) StderrLine: {'line': b'  721 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[6.825939] (cspc_lidar) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.826328] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:214:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.826720] (cspc_lidar) StderrLine: {'line': b'  214 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[6.826894] (cspc_lidar) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.827053] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:234:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.827229] (cspc_lidar) StderrLine: {'line': b'  234 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[6.827382] (cspc_lidar) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.827684] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:761:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.827863] (cspc_lidar) StderrLine: {'line': b'  761 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[6.828014] (cspc_lidar) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.828257] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:765:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.828362] (cspc_lidar) StderrLine: {'line': b'  765 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[6.828426] (cspc_lidar) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.828485] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:241:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.828546] (cspc_lidar) StderrLine: {'line': b'  241 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[6.828603] (cspc_lidar) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.828661] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:255:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_NORMAL4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.828723] (cspc_lidar) StderrLine: {'line': b'  255 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_NORMAL4D\x1b[m\x1b[K \\\n'}
+[6.828781] (cspc_lidar) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.828839] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:777:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_NORMAL4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.828896] (cspc_lidar) StderrLine: {'line': b'  777 |     \x1b[01;36m\x1b[KPCL_ADD_NORMAL4D\x1b[m\x1b[K // This adds the member normal[3] which can also be accessed using the point (which is float[4])\n'}
+[6.828951] (cspc_lidar) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.829006] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:781:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.829072] (cspc_lidar) StderrLine: {'line': b'  781 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[6.829135] (cspc_lidar) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.829287] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:241:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.829357] (cspc_lidar) StderrLine: {'line': b'  241 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[6.829416] (cspc_lidar) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.829472] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:255:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_NORMAL4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.829530] (cspc_lidar) StderrLine: {'line': b'  255 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_NORMAL4D\x1b[m\x1b[K \\\n'}
+[6.829588] (cspc_lidar) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.829646] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:809:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_NORMAL4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.829709] (cspc_lidar) StderrLine: {'line': b'  809 |     \x1b[01;36m\x1b[KPCL_ADD_NORMAL4D\x1b[m\x1b[K\n'}
+[6.829763] (cspc_lidar) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.830982] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:214:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.831147] (cspc_lidar) StderrLine: {'line': b'  214 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[6.831227] (cspc_lidar) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.831296] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:234:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.831361] (cspc_lidar) StderrLine: {'line': b'  234 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[6.831427] (cspc_lidar) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.831485] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:832:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.831548] (cspc_lidar) StderrLine: {'line': b'  832 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[6.831609] (cspc_lidar) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.831819] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:241:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.831991] (cspc_lidar) StderrLine: {'line': b'  241 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[6.832062] (cspc_lidar) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.832156] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:255:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_NORMAL4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.832235] (cspc_lidar) StderrLine: {'line': b'  255 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_NORMAL4D\x1b[m\x1b[K \\\n'}
+[6.832301] (cspc_lidar) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.832366] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:833:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_NORMAL4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.832425] (cspc_lidar) StderrLine: {'line': b'  833 |     \x1b[01;36m\x1b[KPCL_ADD_NORMAL4D\x1b[m\x1b[K // This adds the member normal[3] which can also be accessed using the point (which is float[4])\n'}
+[6.832484] (cspc_lidar) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.832540] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:837:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.832597] (cspc_lidar) StderrLine: {'line': b'  837 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[6.832652] (cspc_lidar) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.833257] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:214:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.833435] (cspc_lidar) StderrLine: {'line': b'  214 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[6.833508] (cspc_lidar) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.833573] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:234:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.833642] (cspc_lidar) StderrLine: {'line': b'  234 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[6.833708] (cspc_lidar) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.833863] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:867:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.833932] (cspc_lidar) StderrLine: {'line': b'  867 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[6.834001] (cspc_lidar) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.834065] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:241:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.834144] (cspc_lidar) StderrLine: {'line': b'  241 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[6.834206] (cspc_lidar) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.834272] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:255:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_NORMAL4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.834332] (cspc_lidar) StderrLine: {'line': b'  255 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_NORMAL4D\x1b[m\x1b[K \\\n'}
+[6.834393] (cspc_lidar) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.834454] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:868:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_NORMAL4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.834512] (cspc_lidar) StderrLine: {'line': b'  868 |     \x1b[01;36m\x1b[KPCL_ADD_NORMAL4D\x1b[m\x1b[K // This adds the member normal[3] which can also be accessed using the point (which is float[4])\n'}
+[6.834573] (cspc_lidar) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.834765] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:264:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.834914] (cspc_lidar) StderrLine: {'line': b'  264 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[6.834986] (cspc_lidar) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.835051] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:873:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_RGB\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.835135] (cspc_lidar) StderrLine: {'line': b'  873 |         \x1b[01;36m\x1b[KPCL_ADD_UNION_RGB\x1b[m\x1b[K\n'}
+[6.835203] (cspc_lidar) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.835259] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:872:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.835322] (cspc_lidar) StderrLine: {'line': b'  872 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[6.835377] (cspc_lidar) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.837025] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:214:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.837220] (cspc_lidar) StderrLine: {'line': b'  214 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[6.837298] (cspc_lidar) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.837365] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:234:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.837434] (cspc_lidar) StderrLine: {'line': b'  234 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[6.837495] (cspc_lidar) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.837556] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:953:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.837712] (cspc_lidar) StderrLine: {'line': b'  953 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[6.837773] (cspc_lidar) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.837832] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:241:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.837898] (cspc_lidar) StderrLine: {'line': b'  241 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[6.837955] (cspc_lidar) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.838023] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:255:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_NORMAL4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.838079] (cspc_lidar) StderrLine: {'line': b'  255 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_NORMAL4D\x1b[m\x1b[K \\\n'}
+[6.838167] (cspc_lidar) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.838235] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:954:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_NORMAL4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.838295] (cspc_lidar) StderrLine: {'line': b'  954 |     \x1b[01;36m\x1b[KPCL_ADD_NORMAL4D\x1b[m\x1b[K // This adds the member normal[3] which can also be accessed using the point (which is float[4])\n'}
+[6.838352] (cspc_lidar) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.838410] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:958:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.838491] (cspc_lidar) StderrLine: {'line': b'  958 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[6.838570] (cspc_lidar) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.839467] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:214:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.839630] (cspc_lidar) StderrLine: {'line': b'  214 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[6.839706] (cspc_lidar) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.839772] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:234:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.839842] (cspc_lidar) StderrLine: {'line': b'  234 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[6.839907] (cspc_lidar) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.839972] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:996:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.840319] (cspc_lidar) StderrLine: {'line': b'  996 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[6.840410] (cspc_lidar) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.840486] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:241:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.840554] (cspc_lidar) StderrLine: {'line': b'  241 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[6.840614] (cspc_lidar) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.840678] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:255:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_NORMAL4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.840747] (cspc_lidar) StderrLine: {'line': b'  255 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_NORMAL4D\x1b[m\x1b[K \\\n'}
+[6.840804] (cspc_lidar) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.840862] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:997:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_NORMAL4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.840920] (cspc_lidar) StderrLine: {'line': b'  997 |     \x1b[01;36m\x1b[KPCL_ADD_NORMAL4D\x1b[m\x1b[K // This adds the member normal[3] which can also be accessed using the point (which is float[4])\n'}
+[6.840976] (cspc_lidar) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.841030] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:1001:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.841094] (cspc_lidar) StderrLine: {'line': b' 1001 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[6.841151] (cspc_lidar) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.841701] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:214:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.841876] (cspc_lidar) StderrLine: {'line': b'  214 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[6.841952] (cspc_lidar) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.842013] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:234:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.842120] (cspc_lidar) StderrLine: {'line': b'  234 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[6.842185] (cspc_lidar) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.842242] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:1041:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.842302] (cspc_lidar) StderrLine: {'line': b' 1041 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[6.842360] (cspc_lidar) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.842416] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:1045:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.842479] (cspc_lidar) StderrLine: {'line': b' 1045 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[6.842534] (cspc_lidar) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.843530] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:214:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.843697] (cspc_lidar) StderrLine: {'line': b'  214 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[6.843768] (cspc_lidar) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.843831] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:234:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.843894] (cspc_lidar) StderrLine: {'line': b'  234 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[6.843952] (cspc_lidar) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.844012] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:1072:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.844070] (cspc_lidar) StderrLine: {'line': b' 1072 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[6.844143] (cspc_lidar) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.844198] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:1076:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.844257] (cspc_lidar) StderrLine: {'line': b' 1076 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[6.844311] (cspc_lidar) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.845741] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:1164:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.845931] (cspc_lidar) StderrLine: {'line': b' 1164 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[6.846006] (cspc_lidar) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.848531] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:1357:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.848694] (cspc_lidar) StderrLine: {'line': b' 1357 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[6.848765] (cspc_lidar) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.924774] (-) TimerEvent: {}
+[6.947351] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:1580:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.947611] (cspc_lidar) StderrLine: {'line': b' 1580 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[6.947729] (cspc_lidar) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.947896] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:214:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.947962] (cspc_lidar) StderrLine: {'line': b'  214 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[6.948022] (cspc_lidar) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.948093] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:234:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.948181] (cspc_lidar) StderrLine: {'line': b'  234 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[6.948257] (cspc_lidar) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.948315] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:1606:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.948375] (cspc_lidar) StderrLine: {'line': b' 1606 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[6.948454] (cspc_lidar) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.949781] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:214:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.950047] (cspc_lidar) StderrLine: {'line': b'  214 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[6.950135] (cspc_lidar) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.950201] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:234:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.950277] (cspc_lidar) StderrLine: {'line': b'  234 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[6.950343] (cspc_lidar) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.950405] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:1646:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.950468] (cspc_lidar) StderrLine: {'line': b' 1646 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[6.950533] (cspc_lidar) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.950595] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:241:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.950657] (cspc_lidar) StderrLine: {'line': b'  241 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[6.950717] (cspc_lidar) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.950779] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:255:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_NORMAL4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.950840] (cspc_lidar) StderrLine: {'line': b'  255 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_NORMAL4D\x1b[m\x1b[K \\\n'}
+[6.950902] (cspc_lidar) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.950964] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:1647:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_NORMAL4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.951024] (cspc_lidar) StderrLine: {'line': b' 1647 |     \x1b[01;36m\x1b[KPCL_ADD_NORMAL4D\x1b[m\x1b[K // This adds the member normal[3] which can also be accessed using the point (which is float[4])\n'}
+[6.951093] (cspc_lidar) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.951359] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:264:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.951508] (cspc_lidar) StderrLine: {'line': b'  264 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[6.951580] (cspc_lidar) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.951643] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:1652:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_RGB\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.951704] (cspc_lidar) StderrLine: {'line': b' 1652 |         \x1b[01;36m\x1b[KPCL_ADD_UNION_RGB\x1b[m\x1b[K\n'}
+[6.951765] (cspc_lidar) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.951823] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:1651:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.951893] (cspc_lidar) StderrLine: {'line': b' 1651 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[6.951950] (cspc_lidar) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.953167] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:214:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.953347] (cspc_lidar) StderrLine: {'line': b'  214 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[6.953416] (cspc_lidar) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.953480] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:234:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.953543] (cspc_lidar) StderrLine: {'line': b'  234 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[6.953606] (cspc_lidar) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.953666] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:1690:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.953726] (cspc_lidar) StderrLine: {'line': b' 1690 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\n'}
+[6.953783] (cspc_lidar) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.024983] (-) TimerEvent: {}
+[7.125368] (-) TimerEvent: {}
+[7.225781] (-) TimerEvent: {}
+[7.326313] (-) TimerEvent: {}
+[7.426807] (-) TimerEvent: {}
+[7.527312] (-) TimerEvent: {}
+[7.627675] (-) TimerEvent: {}
+[7.728178] (-) TimerEvent: {}
+[7.792379] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/src/node_lidar_ros.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[01;32m\x1b[K Scan_to_PointCloud\x1b[m\x1b[K(LaserScan&, sensor_msgs::msg::PointCloud2&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.792751] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/src/node_lidar_ros.cpp:85:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<LaserPoint>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.793002] (cspc_lidar) StderrLine: {'line': b'   85 |   for (int i = 0; \x1b[01;35m\x1b[Ki < scan.points.size()\x1b[m\x1b[K; i++)\n'}
+[7.793209] (cspc_lidar) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.796581] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/src/node_lidar_ros.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[01;32m\x1b[K topic_thread\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.797125] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/src/node_lidar_ros.cpp:99:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type\x07-Wreturn-type\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.797316] (cspc_lidar) StderrLine: {'line': b'   99 | \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[7.797480] (cspc_lidar) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[7.798258] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/src/node_lidar_ros.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[01;32m\x1b[K main\x1b[m\x1b[K(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.798457] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/src/node_lidar_ros.cpp:107:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::declare_parameter(const char [5])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.798618] (cspc_lidar) StderrLine: {'line': b'  107 |   \x1b[01;31m\x1b[Knode->declare_parameter("port")\x1b[m\x1b[K;\n'}
+[7.798769] (cspc_lidar) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[7.798916] (cspc_lidar) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[7.799062] (cspc_lidar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[7.799228] (cspc_lidar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172\x1b[m\x1b[K,\n'}
+[7.799427] (cspc_lidar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/include/cspc_lidar/node_lidar_ros.h:4\x1b[m\x1b[K,\n'}
+[7.799634] (cspc_lidar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/src/node_lidar_ros.cpp:1\x1b[m\x1b[K:\n'}
+[7.799707] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:500:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::\x1b[01;32m\x1b[Kdeclare_parameter\x1b[m\x1b[K(const std::string&, const ParameterT&, const rcl_interfaces::msg::ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.799776] (cspc_lidar) StderrLine: {'line': b'  500 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[7.799836] (cspc_lidar) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.799902] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:500:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.799960] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/src/node_lidar_ros.cpp:107:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[7.800032] (cspc_lidar) StderrLine: {'line': b'  107 |   \x1b[01;36m\x1b[Knode->declare_parameter("port")\x1b[m\x1b[K;\n'}
+[7.800096] (cspc_lidar) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[7.800149] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:513:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::\x1b[01;32m\x1b[Kdeclare_parameter\x1b[m\x1b[K(const std::string&, const rcl_interfaces::msg::ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.800207] (cspc_lidar) StderrLine: {'line': b'  513 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[7.800263] (cspc_lidar) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.800318] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:513:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.800375] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/src/node_lidar_ros.cpp:107:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[KParameterT\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.800433] (cspc_lidar) StderrLine: {'line': b'  107 |   \x1b[01;36m\x1b[Knode->declare_parameter("port")\x1b[m\x1b[K;\n'}
+[7.800488] (cspc_lidar) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[7.800542] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:445:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::\x1b[01;32m\x1b[Kdeclare_parameter\x1b[m\x1b[K(const std::string&, const rclcpp::ParameterValue&, const rcl_interfaces::msg::ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.800601] (cspc_lidar) StderrLine: {'line': b'  445 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[7.800657] (cspc_lidar) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.800713] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:445:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[7.800769] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:470:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::\x1b[01;32m\x1b[Kdeclare_parameter\x1b[m\x1b[K(const std::string&, rclcpp::ParameterType, const rcl_interfaces::msg::ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.800831] (cspc_lidar) StderrLine: {'line': b'  470 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[7.800886] (cspc_lidar) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.800939] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:470:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[7.800993] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/src/node_lidar_ros.cpp:110:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::declare_parameter(const char [9])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.801048] (cspc_lidar) StderrLine: {'line': b'  110 |   \x1b[01;31m\x1b[Knode->declare_parameter("baudrate")\x1b[m\x1b[K;\n'}
+[7.801115] (cspc_lidar) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.801174] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:500:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::\x1b[01;32m\x1b[Kdeclare_parameter\x1b[m\x1b[K(const std::string&, const ParameterT&, const rcl_interfaces::msg::ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.801231] (cspc_lidar) StderrLine: {'line': b'  500 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[7.801288] (cspc_lidar) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.801341] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:500:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.801396] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/src/node_lidar_ros.cpp:110:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[7.801452] (cspc_lidar) StderrLine: {'line': b'  110 |   \x1b[01;36m\x1b[Knode->declare_parameter("baudrate")\x1b[m\x1b[K;\n'}
+[7.801507] (cspc_lidar) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.801560] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:513:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::\x1b[01;32m\x1b[Kdeclare_parameter\x1b[m\x1b[K(const std::string&, const rcl_interfaces::msg::ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.801619] (cspc_lidar) StderrLine: {'line': b'  513 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[7.801671] (cspc_lidar) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.801727] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:513:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.801781] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/src/node_lidar_ros.cpp:110:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[KParameterT\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.801837] (cspc_lidar) StderrLine: {'line': b'  110 |   \x1b[01;36m\x1b[Knode->declare_parameter("baudrate")\x1b[m\x1b[K;\n'}
+[7.801893] (cspc_lidar) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.801947] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:445:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::\x1b[01;32m\x1b[Kdeclare_parameter\x1b[m\x1b[K(const std::string&, const rclcpp::ParameterValue&, const rcl_interfaces::msg::ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.802014] (cspc_lidar) StderrLine: {'line': b'  445 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[7.802079] (cspc_lidar) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.802153] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:445:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[7.802216] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:470:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::\x1b[01;32m\x1b[Kdeclare_parameter\x1b[m\x1b[K(const std::string&, rclcpp::ParameterType, const rcl_interfaces::msg::ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.802284] (cspc_lidar) StderrLine: {'line': b'  470 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[7.802349] (cspc_lidar) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.802413] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:470:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[7.802474] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/src/node_lidar_ros.cpp:113:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::declare_parameter(const char [9])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.802541] (cspc_lidar) StderrLine: {'line': b'  113 |   \x1b[01;31m\x1b[Knode->declare_parameter("frame_id")\x1b[m\x1b[K;\n'}
+[7.802603] (cspc_lidar) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.802667] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:500:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::\x1b[01;32m\x1b[Kdeclare_parameter\x1b[m\x1b[K(const std::string&, const ParameterT&, const rcl_interfaces::msg::ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.802735] (cspc_lidar) StderrLine: {'line': b'  500 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[7.802796] (cspc_lidar) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.802851] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:500:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.802904] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/src/node_lidar_ros.cpp:113:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[7.802958] (cspc_lidar) StderrLine: {'line': b'  113 |   \x1b[01;36m\x1b[Knode->declare_parameter("frame_id")\x1b[m\x1b[K;\n'}
+[7.803012] (cspc_lidar) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.803064] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:513:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::\x1b[01;32m\x1b[Kdeclare_parameter\x1b[m\x1b[K(const std::string&, const rcl_interfaces::msg::ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.803126] (cspc_lidar) StderrLine: {'line': b'  513 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[7.803183] (cspc_lidar) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.803237] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:513:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.803292] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/src/node_lidar_ros.cpp:113:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[KParameterT\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.803349] (cspc_lidar) StderrLine: {'line': b'  113 |   \x1b[01;36m\x1b[Knode->declare_parameter("frame_id")\x1b[m\x1b[K;\n'}
+[7.803402] (cspc_lidar) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.803456] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:445:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::\x1b[01;32m\x1b[Kdeclare_parameter\x1b[m\x1b[K(const std::string&, const rclcpp::ParameterValue&, const rcl_interfaces::msg::ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.803515] (cspc_lidar) StderrLine: {'line': b'  445 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[7.803571] (cspc_lidar) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.803624] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:445:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[7.803679] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:470:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::\x1b[01;32m\x1b[Kdeclare_parameter\x1b[m\x1b[K(const std::string&, rclcpp::ParameterType, const rcl_interfaces::msg::ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.803735] (cspc_lidar) StderrLine: {'line': b'  470 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[7.803788] (cspc_lidar) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.803841] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:470:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[7.803896] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/src/node_lidar_ros.cpp:116:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::declare_parameter(const char [8])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.803952] (cspc_lidar) StderrLine: {'line': b'  116 |   \x1b[01;31m\x1b[Knode->declare_parameter("version")\x1b[m\x1b[K;\n'}
+[7.804005] (cspc_lidar) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.804056] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:500:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::\x1b[01;32m\x1b[Kdeclare_parameter\x1b[m\x1b[K(const std::string&, const ParameterT&, const rcl_interfaces::msg::ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.804120] (cspc_lidar) StderrLine: {'line': b'  500 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[7.804175] (cspc_lidar) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.804228] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:500:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.804284] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/src/node_lidar_ros.cpp:116:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[7.804339] (cspc_lidar) StderrLine: {'line': b'  116 |   \x1b[01;36m\x1b[Knode->declare_parameter("version")\x1b[m\x1b[K;\n'}
+[7.804391] (cspc_lidar) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.804445] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:513:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::\x1b[01;32m\x1b[Kdeclare_parameter\x1b[m\x1b[K(const std::string&, const rcl_interfaces::msg::ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.804502] (cspc_lidar) StderrLine: {'line': b'  513 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[7.804555] (cspc_lidar) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.804607] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:513:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.804663] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/src/node_lidar_ros.cpp:116:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[KParameterT\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.804718] (cspc_lidar) StderrLine: {'line': b'  116 |   \x1b[01;36m\x1b[Knode->declare_parameter("version")\x1b[m\x1b[K;\n'}
+[7.804769] (cspc_lidar) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.804820] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:445:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::\x1b[01;32m\x1b[Kdeclare_parameter\x1b[m\x1b[K(const std::string&, const rclcpp::ParameterValue&, const rcl_interfaces::msg::ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.804875] (cspc_lidar) StderrLine: {'line': b'  445 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[7.804928] (cspc_lidar) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.804983] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:445:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[7.805039] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:470:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::\x1b[01;32m\x1b[Kdeclare_parameter\x1b[m\x1b[K(const std::string&, rclcpp::ParameterType, const rcl_interfaces::msg::ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.805101] (cspc_lidar) StderrLine: {'line': b'  470 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[7.805173] (cspc_lidar) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.805228] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:470:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[7.811997] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/src/node_lidar_ros.cpp:181:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<LaserPoint>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.812250] (cspc_lidar) StderrLine: {'line': b'  181 |       for (int i = 0; \x1b[01;35m\x1b[Ki < scan.points.size()\x1b[m\x1b[K; i++)\n'}
+[7.812334] (cspc_lidar) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.828287] (-) TimerEvent: {}
+[7.928686] (-) TimerEvent: {}
+[8.029183] (-) TimerEvent: {}
+[8.129595] (-) TimerEvent: {}
+[8.229992] (-) TimerEvent: {}
+[8.330325] (-) TimerEvent: {}
+[8.430657] (-) TimerEvent: {}
+[8.530977] (-) TimerEvent: {}
+[8.631331] (-) TimerEvent: {}
+[8.731669] (-) TimerEvent: {}
+[8.832146] (-) TimerEvent: {}
+[8.932757] (-) TimerEvent: {}
+[9.033551] (-) TimerEvent: {}
+[9.134371] (-) TimerEvent: {}
+[9.234799] (-) TimerEvent: {}
+[9.335381] (-) TimerEvent: {}
+[9.435766] (-) TimerEvent: {}
+[9.536161] (-) TimerEvent: {}
+[9.636508] (-) TimerEvent: {}
+[9.736857] (-) TimerEvent: {}
+[9.837281] (-) TimerEvent: {}
+[9.937655] (-) TimerEvent: {}
+[10.038136] (-) TimerEvent: {}
+[10.138457] (-) TimerEvent: {}
+[10.238788] (-) TimerEvent: {}
+[10.339079] (-) TimerEvent: {}
+[10.439368] (-) TimerEvent: {}
+[10.539677] (-) TimerEvent: {}
+[10.640005] (-) TimerEvent: {}
+[10.740301] (-) TimerEvent: {}
+[10.840638] (-) TimerEvent: {}
+[10.941044] (-) TimerEvent: {}
+[10.948709] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/src/node_lidar_ros.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[01;32m\x1b[K Scan_to_PointCloud\x1b[m\x1b[K(LaserScan&, sensor_msgs::msg::PointCloud2&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.949122] (cspc_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/src/node_lidar_ros.cpp:94:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcontrol reaches end of non-void function [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type\x07-Wreturn-type\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.949288] (cspc_lidar) StderrLine: {'line': b'   94 | \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[10.949421] (cspc_lidar) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.041271] (-) TimerEvent: {}
+[11.141639] (-) TimerEvent: {}
+[11.242070] (-) TimerEvent: {}
+[11.342438] (-) TimerEvent: {}
+[11.411078] (cspc_lidar) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/cspc_lidar.dir/build.make:174: CMakeFiles/cspc_lidar.dir/src/node_lidar_ros.cpp.o] Error 1\n'}
+[11.411594] (cspc_lidar) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cspc_lidar.dir/all] Error 2\n'}
+[11.412058] (cspc_lidar) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[11.415778] (cspc_lidar) CommandEnded: {'returncode': 2}
+[11.442541] (-) TimerEvent: {}
+[11.538269] (cspc_lidar) JobEnded: {'identifier': 'cspc_lidar', 'rc': 2}
+[11.542617] (-) TimerEvent: {}
+[11.548855] (-) EventReactorShutdown: {}

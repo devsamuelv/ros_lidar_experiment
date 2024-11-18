@@ -1,0 +1,212 @@
+[0.000000] (-) TimerEvent: {}
+[0.000217] (cspc_lidar) JobQueued: {'identifier': 'cspc_lidar', 'dependencies': OrderedDict()}
+[0.000949] (cspc_lidar) JobStarted: {'identifier': 'cspc_lidar'}
+[0.012950] (cspc_lidar) JobProgress: {'identifier': 'cspc_lidar', 'progress': 'cmake'}
+[0.015298] (cspc_lidar) JobProgress: {'identifier': 'cspc_lidar', 'progress': 'build'}
+[0.015354] (cspc_lidar) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar', '--', '-j20', '-l20'], 'cwd': '/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'samuel', 'OPENVDB_DIR': '/home/linuxbrew/.linuxbrew/Cellar/openvdb/11.0.0_2', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/samuel', 'CHROME_DESKTOP': 'code.desktop', 'TERM_PROGRAM_VERSION': '1.95.3', 'NLOPT': '/home/linuxbrew/.linuxbrew/Cellar/nlopt/2.7.1', 'DESKTOP_SESSION': 'ubuntu', 'OpenVDB_INCLUDE_DIR': '/home/linuxbrew/.linuxbrew/Cellar/openvdb/11.0.0_2/include', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'HOMEBREW_PREFIX': '/home/linuxbrew/.linuxbrew', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'NIX_PROFILES': '/nix/var/nix/profiles/default /home/samuel/.nix-profile', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '3553', 'SYSTEMD_EXEC_PID': '3943', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '288307', 'NVM_DIR': '/home/samuel/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install', 'INFOPATH': '/home/linuxbrew/.linuxbrew/share/info:/home/linuxbrew/.linuxbrew/share/info:', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'samuel', 'JOURNAL_STREAM': '8:28569', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'samuel', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/home/samuel/.nix-profile/bin:/nix/var/nix/profiles/default/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/home/samuel/.nix-profile/bin:/nix/var/nix/profiles/default/bin:/opt/ros/jazzy/bin:/home/samuel/.nix-profile/bin:/nix/var/nix/profiles/default/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/samuel/.dotnet/tools:/home/samuel/Documents/node-v20.14.0-linux-x64/bin:/home/samuel/Documents/jdk-21/bin:/home/samuel/.cargo/bin:/home/samuel/Documents/gradle-8.8/bin:/home/samuel/.platformio/penv/bin:/home/samuel/Documents/bazel:/home/samuel/Android/Sdk/platform-tools:/home/samuel/.local/share/JetBrains/Toolbox/scripts:/home/samuel/Documents/node-v20.14.0-linux-x64/bin:/home/samuel/Documents/jdk-21/bin:/home/samuel/.cargo/bin:/home/samuel/Documents/gradle-8.8/bin:/home/samuel/.platformio/penv/bin:/home/samuel/Documents/bazel:/home/samuel/Android/Sdk/platform-tools:/home/samuel/.local/share/JetBrains/Toolbox/scripts:/home/samuel/Documents/node-v20.14.0-linux-x64/bin:/home/samuel/Documents/jdk-21/bin:/home/samuel/.cargo/bin:/home/samuel/Documents/gradle-8.8/bin:/home/samuel/.platformio/penv/bin:/home/samuel/Documents/bazel:/home/samuel/Android/Sdk/platform-tools', 'SESSION_MANAGER': 'local/Samuels-Zenbook:@/tmp/.ICE-unix/3899,unix/Samuels-Zenbook:/tmp/.ICE-unix/3899', 'INVOCATION_ID': '5134cef5e5454ae8ae67bcf79920bf19', 'HOMEBREW_CELLAR': '/home/linuxbrew/.linuxbrew/Cellar', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'DOTNET_BUNDLE_EXTRACT_BASE_DIR': '/home/samuel/.cache/dotnet_bundle_extract', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.SNO1W2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-473b051517.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'NIX_SSL_CERT_FILE': '/etc/ssl/certs/ca-certificates.crt', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'JAVA_HOME': '/usr/lib/jvm/java-1.17.0-openjdk-amd64', 'PWD': '/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/samuel/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop:/home/samuel/.nix-profile/share:/nix/var/nix/profiles/default/share:/home/samuel/.nix-profile/share:/nix/var/nix/profiles/default/share:/home/samuel/.nix-profile/share:/nix/var/nix/profiles/default/share', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'HOMEBREW_REPOSITORY': '/home/linuxbrew/.linuxbrew/Homebrew', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'MANPATH': '/home/linuxbrew/.linuxbrew/share/man:/home/linuxbrew/.linuxbrew/share/man::', 'NVM_RC_VERSION': '', 'CMAKE_PREFIX_PATH': '/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099872] (-) TimerEvent: {}
+[0.137027] (cspc_lidar) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/cspc_lidar.dir/sdk/node_lidar.cpp.o\x1b[0m\n'}
+[0.139631] (cspc_lidar) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/cspc_lidar.dir/src/node_lidar_ros.cpp.o\x1b[0m\n'}
+[0.200084] (-) TimerEvent: {}
+[0.300395] (-) TimerEvent: {}
+[0.400733] (-) TimerEvent: {}
+[0.501068] (-) TimerEvent: {}
+[0.601442] (-) TimerEvent: {}
+[0.701820] (-) TimerEvent: {}
+[0.802258] (-) TimerEvent: {}
+[0.902668] (-) TimerEvent: {}
+[1.003088] (-) TimerEvent: {}
+[1.103409] (-) TimerEvent: {}
+[1.203812] (-) TimerEvent: {}
+[1.304206] (-) TimerEvent: {}
+[1.404503] (-) TimerEvent: {}
+[1.504896] (-) TimerEvent: {}
+[1.605352] (-) TimerEvent: {}
+[1.705660] (-) TimerEvent: {}
+[1.806050] (-) TimerEvent: {}
+[1.906357] (-) TimerEvent: {}
+[2.006669] (-) TimerEvent: {}
+[2.107202] (-) TimerEvent: {}
+[2.207728] (-) TimerEvent: {}
+[2.308160] (-) TimerEvent: {}
+[2.408599] (-) TimerEvent: {}
+[2.509078] (-) TimerEvent: {}
+[2.609574] (-) TimerEvent: {}
+[2.710060] (-) TimerEvent: {}
+[2.810555] (-) TimerEvent: {}
+[2.910941] (-) TimerEvent: {}
+[3.011327] (-) TimerEvent: {}
+[3.111719] (-) TimerEvent: {}
+[3.212213] (-) TimerEvent: {}
+[3.312580] (-) TimerEvent: {}
+[3.413095] (-) TimerEvent: {}
+[3.513508] (-) TimerEvent: {}
+[3.613969] (-) TimerEvent: {}
+[3.714374] (-) TimerEvent: {}
+[3.814789] (-) TimerEvent: {}
+[3.915238] (-) TimerEvent: {}
+[4.015620] (-) TimerEvent: {}
+[4.116088] (-) TimerEvent: {}
+[4.216464] (-) TimerEvent: {}
+[4.316844] (-) TimerEvent: {}
+[4.417349] (-) TimerEvent: {}
+[4.517753] (-) TimerEvent: {}
+[4.618270] (-) TimerEvent: {}
+[4.718738] (-) TimerEvent: {}
+[4.819200] (-) TimerEvent: {}
+[4.919557] (-) TimerEvent: {}
+[5.020084] (-) TimerEvent: {}
+[5.120512] (-) TimerEvent: {}
+[5.220835] (-) TimerEvent: {}
+[5.321292] (-) TimerEvent: {}
+[5.421568] (-) TimerEvent: {}
+[5.521949] (-) TimerEvent: {}
+[5.622216] (-) TimerEvent: {}
+[5.722667] (-) TimerEvent: {}
+[5.823023] (-) TimerEvent: {}
+[5.923444] (-) TimerEvent: {}
+[6.023968] (-) TimerEvent: {}
+[6.124342] (-) TimerEvent: {}
+[6.224743] (-) TimerEvent: {}
+[6.325209] (-) TimerEvent: {}
+[6.425591] (-) TimerEvent: {}
+[6.526034] (-) TimerEvent: {}
+[6.626440] (-) TimerEvent: {}
+[6.726815] (-) TimerEvent: {}
+[6.827274] (-) TimerEvent: {}
+[6.927660] (-) TimerEvent: {}
+[7.028159] (-) TimerEvent: {}
+[7.128521] (-) TimerEvent: {}
+[7.228986] (-) TimerEvent: {}
+[7.329402] (-) TimerEvent: {}
+[7.429882] (-) TimerEvent: {}
+[7.530359] (-) TimerEvent: {}
+[7.630704] (-) TimerEvent: {}
+[7.731189] (-) TimerEvent: {}
+[7.831656] (-) TimerEvent: {}
+[7.932011] (-) TimerEvent: {}
+[8.032459] (-) TimerEvent: {}
+[8.132944] (-) TimerEvent: {}
+[8.233319] (-) TimerEvent: {}
+[8.333821] (-) TimerEvent: {}
+[8.434224] (-) TimerEvent: {}
+[8.534631] (-) TimerEvent: {}
+[8.635115] (-) TimerEvent: {}
+[8.735493] (-) TimerEvent: {}
+[8.835972] (-) TimerEvent: {}
+[8.936471] (-) TimerEvent: {}
+[9.036981] (-) TimerEvent: {}
+[9.137504] (-) TimerEvent: {}
+[9.237919] (-) TimerEvent: {}
+[9.338311] (-) TimerEvent: {}
+[9.438786] (-) TimerEvent: {}
+[9.539219] (-) TimerEvent: {}
+[9.639587] (-) TimerEvent: {}
+[9.740078] (-) TimerEvent: {}
+[9.840621] (-) TimerEvent: {}
+[9.941036] (-) TimerEvent: {}
+[10.041556] (-) TimerEvent: {}
+[10.141944] (-) TimerEvent: {}
+[10.242345] (-) TimerEvent: {}
+[10.342862] (-) TimerEvent: {}
+[10.443342] (-) TimerEvent: {}
+[10.543706] (-) TimerEvent: {}
+[10.644186] (-) TimerEvent: {}
+[10.744666] (-) TimerEvent: {}
+[10.845072] (-) TimerEvent: {}
+[10.945356] (-) TimerEvent: {}
+[11.045647] (-) TimerEvent: {}
+[11.146023] (-) TimerEvent: {}
+[11.246419] (-) TimerEvent: {}
+[11.346804] (-) TimerEvent: {}
+[11.447200] (-) TimerEvent: {}
+[11.547592] (-) TimerEvent: {}
+[11.647974] (-) TimerEvent: {}
+[11.748323] (-) TimerEvent: {}
+[11.848695] (-) TimerEvent: {}
+[11.949074] (-) TimerEvent: {}
+[12.049385] (-) TimerEvent: {}
+[12.149652] (-) TimerEvent: {}
+[12.250034] (-) TimerEvent: {}
+[12.350304] (-) TimerEvent: {}
+[12.450583] (-) TimerEvent: {}
+[12.550913] (-) TimerEvent: {}
+[12.651328] (-) TimerEvent: {}
+[12.751630] (-) TimerEvent: {}
+[12.851937] (-) TimerEvent: {}
+[12.952310] (-) TimerEvent: {}
+[13.052673] (-) TimerEvent: {}
+[13.152996] (-) TimerEvent: {}
+[13.253312] (-) TimerEvent: {}
+[13.353630] (-) TimerEvent: {}
+[13.454009] (-) TimerEvent: {}
+[13.554309] (-) TimerEvent: {}
+[13.654597] (-) TimerEvent: {}
+[13.755010] (-) TimerEvent: {}
+[13.855433] (-) TimerEvent: {}
+[13.955818] (-) TimerEvent: {}
+[14.056237] (-) TimerEvent: {}
+[14.156588] (-) TimerEvent: {}
+[14.257051] (-) TimerEvent: {}
+[14.357452] (-) TimerEvent: {}
+[14.457846] (-) TimerEvent: {}
+[14.558323] (-) TimerEvent: {}
+[14.658694] (-) TimerEvent: {}
+[14.759041] (-) TimerEvent: {}
+[14.859420] (-) TimerEvent: {}
+[14.959787] (-) TimerEvent: {}
+[15.060139] (-) TimerEvent: {}
+[15.160497] (-) TimerEvent: {}
+[15.260807] (-) TimerEvent: {}
+[15.361192] (-) TimerEvent: {}
+[15.461466] (-) TimerEvent: {}
+[15.561777] (-) TimerEvent: {}
+[15.662182] (-) TimerEvent: {}
+[15.762456] (-) TimerEvent: {}
+[15.862735] (-) TimerEvent: {}
+[15.963233] (-) TimerEvent: {}
+[16.063574] (-) TimerEvent: {}
+[16.163960] (-) TimerEvent: {}
+[16.264329] (-) TimerEvent: {}
+[16.364725] (-) TimerEvent: {}
+[16.465040] (-) TimerEvent: {}
+[16.565398] (-) TimerEvent: {}
+[16.665724] (-) TimerEvent: {}
+[16.736144] (cspc_lidar) StdoutLine: {'line': b'[ 33%] \x1b[32m\x1b[1mLinking CXX executable cspc_lidar\x1b[0m\n'}
+[16.765851] (-) TimerEvent: {}
+[16.866206] (-) TimerEvent: {}
+[16.966552] (-) TimerEvent: {}
+[17.066915] (-) TimerEvent: {}
+[17.167289] (-) TimerEvent: {}
+[17.267650] (-) TimerEvent: {}
+[17.347001] (cspc_lidar) StdoutLine: {'line': b'[100%] Built target cspc_lidar\n'}
+[17.364988] (cspc_lidar) CommandEnded: {'returncode': 0}
+[17.367748] (-) TimerEvent: {}
+[17.446419] (cspc_lidar) JobProgress: {'identifier': 'cspc_lidar', 'progress': 'install'}
+[17.458968] (cspc_lidar) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar'], 'cwd': '/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'samuel', 'OPENVDB_DIR': '/home/linuxbrew/.linuxbrew/Cellar/openvdb/11.0.0_2', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/samuel', 'CHROME_DESKTOP': 'code.desktop', 'TERM_PROGRAM_VERSION': '1.95.3', 'NLOPT': '/home/linuxbrew/.linuxbrew/Cellar/nlopt/2.7.1', 'DESKTOP_SESSION': 'ubuntu', 'OpenVDB_INCLUDE_DIR': '/home/linuxbrew/.linuxbrew/Cellar/openvdb/11.0.0_2/include', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'HOMEBREW_PREFIX': '/home/linuxbrew/.linuxbrew', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'NIX_PROFILES': '/nix/var/nix/profiles/default /home/samuel/.nix-profile', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '3553', 'SYSTEMD_EXEC_PID': '3943', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '288307', 'NVM_DIR': '/home/samuel/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install', 'INFOPATH': '/home/linuxbrew/.linuxbrew/share/info:/home/linuxbrew/.linuxbrew/share/info:', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'samuel', 'JOURNAL_STREAM': '8:28569', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'samuel', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/home/samuel/.nix-profile/bin:/nix/var/nix/profiles/default/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/home/samuel/.nix-profile/bin:/nix/var/nix/profiles/default/bin:/opt/ros/jazzy/bin:/home/samuel/.nix-profile/bin:/nix/var/nix/profiles/default/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/samuel/.dotnet/tools:/home/samuel/Documents/node-v20.14.0-linux-x64/bin:/home/samuel/Documents/jdk-21/bin:/home/samuel/.cargo/bin:/home/samuel/Documents/gradle-8.8/bin:/home/samuel/.platformio/penv/bin:/home/samuel/Documents/bazel:/home/samuel/Android/Sdk/platform-tools:/home/samuel/.local/share/JetBrains/Toolbox/scripts:/home/samuel/Documents/node-v20.14.0-linux-x64/bin:/home/samuel/Documents/jdk-21/bin:/home/samuel/.cargo/bin:/home/samuel/Documents/gradle-8.8/bin:/home/samuel/.platformio/penv/bin:/home/samuel/Documents/bazel:/home/samuel/Android/Sdk/platform-tools:/home/samuel/.local/share/JetBrains/Toolbox/scripts:/home/samuel/Documents/node-v20.14.0-linux-x64/bin:/home/samuel/Documents/jdk-21/bin:/home/samuel/.cargo/bin:/home/samuel/Documents/gradle-8.8/bin:/home/samuel/.platformio/penv/bin:/home/samuel/Documents/bazel:/home/samuel/Android/Sdk/platform-tools', 'SESSION_MANAGER': 'local/Samuels-Zenbook:@/tmp/.ICE-unix/3899,unix/Samuels-Zenbook:/tmp/.ICE-unix/3899', 'INVOCATION_ID': '5134cef5e5454ae8ae67bcf79920bf19', 'HOMEBREW_CELLAR': '/home/linuxbrew/.linuxbrew/Cellar', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'DOTNET_BUNDLE_EXTRACT_BASE_DIR': '/home/samuel/.cache/dotnet_bundle_extract', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.SNO1W2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-473b051517.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'NIX_SSL_CERT_FILE': '/etc/ssl/certs/ca-certificates.crt', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'JAVA_HOME': '/usr/lib/jvm/java-1.17.0-openjdk-amd64', 'PWD': '/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/build/cspc_lidar', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/samuel/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop:/home/samuel/.nix-profile/share:/nix/var/nix/profiles/default/share:/home/samuel/.nix-profile/share:/nix/var/nix/profiles/default/share:/home/samuel/.nix-profile/share:/nix/var/nix/profiles/default/share', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'HOMEBREW_REPOSITORY': '/home/linuxbrew/.linuxbrew/Homebrew', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'MANPATH': '/home/linuxbrew/.linuxbrew/share/man:/home/linuxbrew/.linuxbrew/share/man::', 'NVM_RC_VERSION': '', 'CMAKE_PREFIX_PATH': '/home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[17.467954] (-) TimerEvent: {}
+[17.471336] (cspc_lidar) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.472462] (cspc_lidar) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[17.473042] (cspc_lidar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/lib/cspc_lidar/cspc_lidar\n'}
+[17.473747] (cspc_lidar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/launch/lidar_launch.py\n'}
+[17.474002] (cspc_lidar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/launch/lidar_rviz.py\n'}
+[17.474242] (cspc_lidar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/params/cspc_lidar.yaml\n'}
+[17.474450] (cspc_lidar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/ament_index/resource_index/package_run_dependencies/cspc_lidar\n'}
+[17.474589] (cspc_lidar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/ament_index/resource_index/parent_prefix_path/cspc_lidar\n'}
+[17.474816] (cspc_lidar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/environment/ament_prefix_path.sh\n'}
+[17.475222] (cspc_lidar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/environment/ament_prefix_path.dsv\n'}
+[17.475491] (cspc_lidar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/environment/path.sh\n'}
+[17.475686] (cspc_lidar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/environment/path.dsv\n'}
+[17.475893] (cspc_lidar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/local_setup.bash\n'}
+[17.476123] (cspc_lidar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/local_setup.sh\n'}
+[17.476340] (cspc_lidar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/local_setup.zsh\n'}
+[17.476565] (cspc_lidar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/local_setup.dsv\n'}
+[17.476795] (cspc_lidar) StdoutLine: {'line': b'-- Symlinking: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/package.dsv\n'}
+[17.496342] (cspc_lidar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/ament_index/resource_index/packages/cspc_lidar\n'}
+[17.497085] (cspc_lidar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/cmake/cspc_lidarConfig.cmake\n'}
+[17.497397] (cspc_lidar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/cmake/cspc_lidarConfig-version.cmake\n'}
+[17.497632] (cspc_lidar) StdoutLine: {'line': b'-- Up-to-date symlink: /home/samuel/Downloads/COIN-D4/cspc_lidar_sdk_ros2_D4_1110/install/cspc_lidar/share/cspc_lidar/package.xml\n'}
+[17.502084] (cspc_lidar) CommandEnded: {'returncode': 0}
+[17.568077] (-) TimerEvent: {}
+[17.620351] (cspc_lidar) JobEnded: {'identifier': 'cspc_lidar', 'rc': 0}
+[17.621685] (-) EventReactorShutdown: {}
